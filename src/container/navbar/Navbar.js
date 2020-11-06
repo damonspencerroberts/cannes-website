@@ -6,17 +6,29 @@ class Navbar extends Component {
     constructor() {
         super()
 
-        this.state = {}
+        this.state = {
+            activeClass: 3
+        }
     }
 
     render() {
         return (
-                <div className={classes.Navbar}> 
-                    <a className={classes.NavItem} href="/">Home</a>
-                    <a className={classes.NavItem} href="/beach">Beach</a>
-                    <a className={classes.NavItem} href="/gallery">Gallery</a>
-                    <a className={classes.NavItem} href="/cannes">Cannes</a>
-                    <a className={classes.NavItem} href="/contact">Contact</a>
+                <div className= {classes.Navbar}> 
+                    <a className={`${classes.NavItem} ${this.state.activeClass === 0 ? classes.Active : null}`} 
+                    onClick={()=> this.setState({activeClass: 0})}
+                    href="/">Home</a>
+                    <a className={`${classes.NavItem} ${this.state.activeClass === 1 ? classes.Active : null}`} 
+                    onClick={()=> this.setState({activeClass: 1})}
+                    href="/">Beach</a>
+                    <a className={`${classes.NavItem} ${this.state.activeClass === 2 ? classes.Active : null}`} 
+                    onClick={()=> this.setState({activeClass: 2})}
+                    href="/">Gallery</a>
+                    <a className={`${classes.NavItem} ${this.state.activeClass === 3 ? classes.Active : null}`} 
+                    onClick={()=> this.setState({activeClass: 3})}
+                    href="/">Cannes</a>
+                    <a className={`${classes.NavItem} ${this.state.activeClass === 4 ? classes.Active : null}`} 
+                    onClick={()=> this.setState({activeClass: 4})}
+                    href="/">Contact</a>
                 </div>
         );
     }
