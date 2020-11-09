@@ -14,20 +14,15 @@ class Navbar extends Component {
     render() {
         return (
                 <div className= {classes.Navbar}> 
-                    <a className={`${classes.NavItem} ${this.state.activeClass === 0 ? classes.Active : null}`} 
-                    onClick={()=> this.setState({activeClass: 0})}
+                    <a className={`${classes.NavItem} ${classes.Active}`}
                     href="/">Home</a>
-                    <a className={`${classes.NavItem} ${this.state.activeClass === 1 ? classes.Active : null}`} 
-                    onClick={()=> this.setState({activeClass: 1})}
-                    href="/">Beach</a>
-                    <a className={`${classes.NavItem} ${this.state.activeClass === 2 ? classes.Active : null}`} 
-                    onClick={()=> this.setState({activeClass: 2})}
-                    href="/">Gallery</a>
-                    <a className={`${classes.NavItem} ${this.state.activeClass === 3 ? classes.Active : null}`} 
-                    onClick={()=> this.setState({activeClass: 3})}
+                    <a className={classes.NavItem}
+                    href="/">Apartment</a> 
+                    <a className={classes.NavItem}
                     href="/">Cannes</a>
-                    <a className={`${classes.NavItem} ${this.state.activeClass === 4 ? classes.Active : null}`} 
-                    onClick={()=> this.setState({activeClass: 4})}
+                    <a className={classes.NavItem}
+                    href="/">Beach</a>
+                    <a className={classes.NavItem}
                     href="/">Contact</a>
                 </div>
         );
