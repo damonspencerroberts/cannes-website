@@ -4,6 +4,22 @@
     align-items: center;
     padding: 20px;
     flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(5, 24, 56);
+}
+
+.Title {
+    font-size: 2.6rem;
+    font-style: bold;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.Addy {
+    font-size: 1.1rem;
+    font-style: 100;
+    letter-spacing: 1.5px;
+    margin: 10px;
 }
 
 .fi1 {
@@ -11,7 +27,45 @@
     margin: 40px;
 }
 
+.fi1 input {
+    height: 30px;
+    width: 350px;
+    border: 0.3px solid rgb(5, 24, 56);
+    font-family: 'Antic Slab', serif;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.fi1 input::placeholder {
+    font-style: lighter;
+}
+
+.fi1 input:hover, .fi2 textarea:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.fi1 input:focus, .fi2 textarea:focus {
+    outline: none;
+}
+
+
 .fi2 {
     text-align: center;
     margin: 10px;
+}
+
+.fi2 textarea {
+    height: 180px;
+    width: 500px;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: 'Antic Slab', serif;
+    resize: none;
+    border-radius: 3px;
+    border: 0.3px solid rgb(5, 24, 56);
+}
+
+.fi2 textarea::placeholder {
+    font-style: lighter;
 }

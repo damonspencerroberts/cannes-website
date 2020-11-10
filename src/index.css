@@ -1,7 +1,8 @@
 body {
   margin: 5% 12.5%;
-  font-family: 'Open Sans', sans-serif;
-  background-color: rgb(255, 247, 236);
+  font-family: 'Antic Slab', serif;
+  letter-spacing: 1.2px;
+  background-color: rgb(255, 232, 200);
 }
 
 
@@ -9,4 +10,5 @@ body {
 /*
 font-family: 'Open Sans', sans-serif;
 font-family: 'Petit Formal Script', cursive;
+color: rgb(13, 59, 134);
 */

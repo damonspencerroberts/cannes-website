@@ -6,8 +6,8 @@ class ContactForm extends Component {
         return(
             <div>
                 <div className = {classes.Form}>
-                    <h3>Contact us here</h3>
-                    <p>11 Avenue Jean de Noailles, Cannes 06400, France</p>
+                    <h3 className ={classes.Title}>Contact us here</h3>
+                    <p className = {classes.Addy}>11 Avenue Jean de Noailles, Cannes 06400, France</p>
                 
                     <form>
                         <div className={classes.fi1}>
@@ -17,7 +17,7 @@ class ContactForm extends Component {
                             <input type="email" name="email" id="email" placeholder = "Enter your email" required />
                         </div>
                         <div className={classes.fi2}>
-                            <textarea id="story" name="story" rows="5" cols="33" placeholder = "Enter your message" />
+                            <textarea id="story" name="story" placeholder = "Enter your message" />
                         </div>
                     </form>
                 </div>
