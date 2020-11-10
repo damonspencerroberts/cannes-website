@@ -1,0 +1,5 @@
+.Active {
+    border-bottom: solid 8px rgb(133, 133, 133) !important;
+    font-weight: bold;
+    opacity: 1 !important;
+}

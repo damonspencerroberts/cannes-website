@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import "./Navbar.module.css";
 import classes from './Navbar.module.css';
+import _ from 'lodash';
+import NavLink from "./nav-links/Nav-link";
 
 class Navbar extends Component {
     constructor() {
@@ -13,18 +15,13 @@ class Navbar extends Component {
 
     render() {
         return (
-                <div className= {classes.Navbar}> 
-                    <a className={`${classes.NavItem} ${classes.Active}`}
-                    href="/">Home</a>
-                    <a className={classes.NavItem}
-                    href="/">Apartment</a> 
-                    <a className={classes.NavItem}
-                    href="/">Cannes</a>
-                    <a className={classes.NavItem}
-                    href="/">Beach</a>
-                    <a className={classes.NavItem}
-                    href="/">Contact</a>
-                </div>
+            <div className= {classes.Navbar}> 
+                <NavLink className={classes.NavItem} to="/" exact>Home</NavLink>
+                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("apartment")} >Apartment</NavLink> 
+                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("cannes")}>Cannes</NavLink>
+                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("beach")}>Beach</NavLink>
+                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("contact")}>Contact</NavLink>
+            </div>
         );
     }
 }
