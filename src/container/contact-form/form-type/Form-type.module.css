@@ -1,0 +1,47 @@
+.Fi1 {
+    display: inline-flex;
+    margin: 40px;
+}
+
+.Fi1 input {
+    height: 30px;
+    width: 350px;
+    border: 0.3px solid rgb(5, 24, 56);
+    font-family: 'Antic Slab', serif;
+    font-size: 1.4rem;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.Fi1 input::placeholder {
+    font-style: lighter;
+}
+
+.Fi1 input:hover, .Fi2 textarea:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.Fi1 input:focus, .Fi2 textarea:focus {
+    outline: none;
+}
+
+
+.Fi2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.Fi2 textarea {
+    height: 180px;
+    width: 500px;
+    padding: 10px;
+    font-size: 1.4rem;
+    font-family: 'Antic Slab', serif;
+    resize: none;
+    border-radius: 3px;
+    border: 0.3px solid rgb(5, 24, 56);
+}
+
+.Fi2 textarea::placeholder {
+    font-style: lighter;
+}

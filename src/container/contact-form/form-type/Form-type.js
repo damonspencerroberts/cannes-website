@@ -1,34 +1,47 @@
-import React from 'react';
-import {classes} from './Form-type.module.css';
+import React, { Fragment } from 'react';
+import classes from './Form-type.module.css';
 
 const formType = (props) => {
     let inputType = null;
 
     switch (props.elementType) {
         case ('input'):
-            inputType = <input 
-                className = {classes.Text}
-                {...props.elementConfig}
-                value = {props.value}/>;
+            inputType = (
+                <div className={classes.Fi1}>
+                    <input 
+                    className = {classes.Text}
+                    {...props.elementConfig}
+                    value = {props.value}
+                    onChange={props.changed}/>
+                </div>);
             break;
         case ('textarea'):
-            inputType = <textarea 
-                className = {classes.TextArea} 
-                {...props}
-                required/>;
+            inputType = (
+                <div className={classes.Fi2}>
+                    <textarea 
+                    className = {classes.TextArea} 
+                    {...props.elementConfig}
+                    onChange={props.changed}/>
+                </div>);
             break;
         default:
-            inputType = <input 
-                className = {classes.Text}
-                {...props.elementConfig}
-                value = {props.value}/>;
+            inputType = (
+                <div className={classes.Fi1}>
+                    <input 
+                    className = {classes.Text}
+                    {...props.elementConfig}
+                    value = {props.value}
+                    onChange={props.changed}/>
+                </div>);
             break;
     }
 
 
     return (
-        <div className = {classes.Input}>
+        <Fragment>
             {inputType}
-        </div>
+        </Fragment>
     );
 }
+
+export default formType;
