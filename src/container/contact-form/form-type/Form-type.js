@@ -28,7 +28,6 @@ const formType = (props) => {
 
     return (
         <div className = {classes.Input}>
-            <label className = {classes.Label}>{props.label}</label>
             {inputType}
         </div>
     );

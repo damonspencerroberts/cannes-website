@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import classes from './Contact-form.module.css';
+import Button from '../button/Button';
 
 class ContactForm extends Component {
     render() {
@@ -19,6 +20,7 @@ class ContactForm extends Component {
                         <div className={classes.fi2}>
                             <textarea id="story" name="story" placeholder = "Enter your message" />
                         </div>
+                        <Button />
                     </form>
                 </div>
                 
