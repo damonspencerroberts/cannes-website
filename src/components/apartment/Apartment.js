@@ -4,7 +4,7 @@ export default class Apartment extends Component {
     render() {
         return(
             <div>
-                <h1>Hello World!</h1>
+                <h1>Apartment Page</h1>
             </div>
         );
     }

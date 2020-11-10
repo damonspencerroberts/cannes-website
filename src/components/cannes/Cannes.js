@@ -4,7 +4,7 @@ export default class Cannes extends Component {
     render() {
         return(
             <div>
-                <h1>Hello World!</h1>
+                <h1>Cannes Page</h1>
             </div>
         );
     }

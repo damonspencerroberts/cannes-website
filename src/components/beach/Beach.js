@@ -4,7 +4,7 @@ export default class Beach extends Component {
     render() {
         return(
             <div>
-                <h1>Hello World!</h1>
+                <h1>Beach Page</h1>
             </div>
         );
     }
