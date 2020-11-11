@@ -16,14 +16,14 @@ const App = () => {
     <div>
       <Logo />
       <Navbar/>
-		<Switch>
-            <Route path = "/contact" component = {Contact} />
-            <Route path = "/beach" component = {Beach} />
-            <Route path = "/cannes" component = {Cannes} />
-			<Route path = "/apartment" component = {Apt} />
-			<Route path = "/" component = {Home} exact />
-    </Switch>
-    <Footer/>
+        <Switch>
+                <Route path = "/contact" component = {Contact} />
+                <Route path = "/beach" component = {Beach} />
+                <Route path = "/cannes" component = {Cannes} />
+          <Route path = "/apartment" component = {Apt} />
+          <Route path = "/" component = {Home} exact />
+        </Switch>
+      <Footer/>
     </div>
   );
 }
