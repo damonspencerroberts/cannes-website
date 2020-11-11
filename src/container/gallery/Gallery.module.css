@@ -15,3 +15,12 @@
     min-width: 100%;
     vertical-align: top;
 }
+.Images:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.LargeImage {
+    width: 95%;
+    margin: 0 auto;
+}

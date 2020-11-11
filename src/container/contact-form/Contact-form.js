@@ -97,7 +97,7 @@ class ContactForm extends Component {
                                 />
                             );
                         })}
-                        <Button btnType = "submit" />
+                        <Button btnType = "submit" buttonContent = "Submit" />
                     </form>
                 </div>
                 
