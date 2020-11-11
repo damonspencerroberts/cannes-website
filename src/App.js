@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import Navbar from './container/navbar/Navbar';
 import Logo from './container/logo/Logo';
+import Footer from './container/footer/Footer';
 import Home from './components/home/home';
 import Apt from './components/apartment/Apartment';
 import Cannes from './components/cannes/Cannes';
@@ -21,7 +22,8 @@ const App = () => {
             <Route path = "/cannes" component = {Cannes} />
 			<Route path = "/apartment" component = {Apt} />
 			<Route path = "/" component = {Home} exact />
-		</Switch>
+    </Switch>
+    <Footer/>
     </div>
   );
 }

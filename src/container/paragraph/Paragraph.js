@@ -7,7 +7,7 @@ const Paragraph = (props) => {
 
     const paraArr = para.split(' '); //props.here...
     const splitArr = [];
-    let i, temp, chunk = 15; 
+    let i, temp, chunk = 14; 
     for (i = 0; i < paraArr.length; i+=chunk) {
         temp = paraArr.slice(i, i+chunk);
         splitArr.push(temp);
