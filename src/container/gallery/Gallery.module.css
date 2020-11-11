@@ -1,0 +1,17 @@
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Links {
+    height: 30vh;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.Images {
+    max-height: 100%;
+    min-width: 100%;
+    vertical-align: top;
+}

@@ -4,6 +4,7 @@ import ContactForm from '../../container/contact-form/Contact-form';
 import HrTag from '../../container/hr-tag/Hr-tag';
 import Paragraph from '../../container/paragraph/Paragraph';
 import paragraphData from '../paragraph-data/Paragraph-json';
+import Gallery from '../../container/gallery/Gallery';
 
 export default class Home extends Component {
     render() {
@@ -14,6 +15,8 @@ export default class Home extends Component {
                 <Paragraph 
                     elementParagraph = {paragraphData.home.paragraph}
                 />
+                <HrTag />
+                <Gallery />
                 <HrTag />
                 <ContactForm />
                 <HrTag />
