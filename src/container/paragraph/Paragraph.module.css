@@ -1,0 +1,9 @@
+.Paragraph {
+    text-align: center;
+    padding: 50px;
+    color: rgb(5, 24, 56);
+}
+
+.Paragraph p {
+    font-size: 1.4rem;
+}
