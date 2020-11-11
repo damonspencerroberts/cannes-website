@@ -1,0 +1,28 @@
+.Footer {
+    text-align: center;
+    padding: 0 10px 10px 10px;
+}
+  
+.Links {
+    margin: 30px;
+}
+  
+.Links a {
+    padding: 20px;
+    color: rgb(5, 24, 56);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+  
+.Links a:hover {
+    opacity: 0.75;
+}
+
+.Copyright {
+    margin-top: 80px;
+}
+
+.Copyright p {
+    font-size: 0.7rem;
+    font-style: lighter;
+}
