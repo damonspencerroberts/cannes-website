@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import classes from './Gallery.module.css';
 import HomeJson from '../../components/images-gallery/Home-gallery-json';
 import Modal from '../hoc/modal/Modal';
-import Button from '../button/Button';
 
 export default class Gallery extends Component {
     constructor() {
