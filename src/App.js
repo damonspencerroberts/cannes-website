@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from './container/navbar/Navbar';
 import {Switch, Route} from 'react-router-dom';
+import Navbar from './container/navbar/Navbar';
+import Logo from './container/logo/Logo';
 import Home from './components/home/home';
 import Apt from './components/apartment/Apartment';
 import Cannes from './components/cannes/Cannes';
@@ -12,6 +13,7 @@ import Contact from './components/contact/Contact';
 const App = () => {
   return (
     <div>
+      <Logo />
       <Navbar/>
 		<Switch>
             <Route path = "/contact" component = {Contact} />
