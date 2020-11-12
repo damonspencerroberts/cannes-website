@@ -2,12 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
 }
 
 .Links {
     height: 30vh;
-    flex-grow: 1;
     margin: 20px;
+    flex-grow: 0;
 }
 
 .Images {
