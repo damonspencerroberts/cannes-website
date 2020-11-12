@@ -2,12 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    height: 650px;
+    overflow: auto;
 }
 
 .Links {
     height: 30vh;
-    flex-grow: 1;
     margin: 20px;
+    flex-grow: 0;
 }
 
 .Images {
@@ -21,6 +24,15 @@
 }
 
 .LargeImage {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
+}
+
+.Header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Header h1 {
+    font-size: 2.5rem;
 }

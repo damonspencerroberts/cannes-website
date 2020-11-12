@@ -5,7 +5,7 @@ import HrTag from '../../container/hr-tag/Hr-tag';
 import Paragraph from '../../container/paragraph/Paragraph';
 import paragraphData from '../paragraph-data/Paragraph-json';
 import Gallery from '../../container/gallery/Gallery';
-import homeJson from "../images-gallery/Home-gallery-json";
+import Images from "../images-gallery/Home-gallery-json";
 import homeBannerImg from "../../images/cannes-front.jpeg";
 
 export default class Home extends Component {
@@ -27,7 +27,7 @@ export default class Home extends Component {
                 />
                 <HrTag />
                 <Gallery 
-                    homeJson = {homeJson}
+                    homeJson = {Images}
                 />
                 <HrTag />
                 <ContactForm />
