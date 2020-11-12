@@ -8,6 +8,7 @@ import Apt from './components/apartment/Apartment';
 import Cannes from './components/cannes/Cannes';
 import Beach from './components/beach/Beach';
 import Contact from './components/contact/Contact';
+import Social from './container/hoc/social-share/Social';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path = "/apartment" component = {Apt} />
           <Route path = "/" component = {Home} exact />
         </Switch>
+        <Social />
       <Footer/>
     </div>
   );
