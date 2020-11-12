@@ -15,12 +15,14 @@ export default class Home extends Component {
                 <Banner
                     bannerImg = {homeBannerImg}
                     color = "rgb(255, 255, 255)"
+                    highlightColor = "rgba(255, 227, 65, 0.507)"
                     header = "Bienvenue!"
                     opener = "Welcome to our Luxurious Apartment in the heart of the Cote D'azur."
                 />
                 <HrTag />
                 <Paragraph 
                     elementParagraph = {paragraphData.home.paragraph}
+                    chunk = {14}
                 />
                 <HrTag />
                 <Gallery 
