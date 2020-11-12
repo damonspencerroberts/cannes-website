@@ -23,6 +23,7 @@ export default class Home extends Component {
                 <Paragraph 
                     elementParagraph = {paragraphData.home.paragraph}
                     chunk = {14}
+                    findLink
                 />
                 <HrTag />
                 <Gallery 

@@ -81,7 +81,7 @@ class ContactForm extends Component {
         console.log(contactFormElements);
         return(
             <div>
-                <div className = {classes.Form} id = "contact-form">
+                <div className = {classes.Form} id = "form-of-contact">
                     <h3 className ={classes.Title}>Contact us here</h3>
                     <p className = {classes.Addy}>11 Avenue Jean de Noailles, Cannes 06400, France</p>
                 

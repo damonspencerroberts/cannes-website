@@ -4,6 +4,7 @@ import ContactImg from "../../images/contact/ct.jpeg";
 import HrTag from "../../container/hr-tag/Hr-tag";
 import Paragraph from "../../container/paragraph/Paragraph";
 import ParagraphData from '../paragraph-data/Paragraph-json';
+import ContactForm from "../../container/contact-form/Contact-form";
 
 
 export default class Contact extends Component {
@@ -26,6 +27,8 @@ export default class Contact extends Component {
                     chunk = {15}
                     links
                 />
+                <HrTag />
+                <ContactForm />
                 <HrTag />
             </div>
         );
