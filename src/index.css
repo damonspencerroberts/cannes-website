@@ -5,7 +5,9 @@ body {
   background-color: rgb(255, 232, 200);
 }
 
-
+html {
+  scroll-behavior: smooth; 
+}
 
 /*
 font-family: 'Open Sans', sans-serif;

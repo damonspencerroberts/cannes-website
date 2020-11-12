@@ -5,7 +5,7 @@ import classes from './Banner.module.css';
 const Banner = (props) => {
 
     const backgroundImage = {
-        backgroundImage: `linear-gradient(185deg, rgba(255, 227, 65, 0.507)0%, rgba(0, 0, 0, 0.534) 50%), url(${props.bannerImg})`,
+        backgroundImage: `linear-gradient(185deg, ${props.highlightColor} 0%, rgba(0, 0, 0, 0.534) 50%), url(${props.bannerImg})`,
         color: `${props.color}`
     }
 
