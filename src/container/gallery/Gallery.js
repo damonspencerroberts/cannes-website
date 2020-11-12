@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import classes from './Gallery.module.css';
-import HomeJson from '../../components/images-gallery/Home-gallery-json';
 import Modal from '../hoc/modal/Modal';
 
 export default class Gallery extends Component {
@@ -19,7 +18,7 @@ export default class Gallery extends Component {
 
     handleLargeImage(identifier) {
         console.log(identifier);
-        const foundPic = HomeJson.find(e => {
+        const foundPic = this.props.homeJson.find(e => {
             return e.key === identifier;
         });
 
@@ -44,7 +43,7 @@ export default class Gallery extends Component {
                         <img className = {classes.LargeImage} src = {this.state.individualPic} alt = "ind-pic" />
                     </Modal>: null}
                 <div className={classes.Gallery}>
-                    {HomeJson.map(e => {
+                    {this.props.homeJson.map(e => {
                         return (
                             <div className={classes.Links} key = {e.key} onClick = {() => this.handleLargeImage(e.key)}> 
                                 <img src={e.source} alt={e.key} className={classes.Images} />
