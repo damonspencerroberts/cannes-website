@@ -1,10 +1,15 @@
 import React, {Component} from 'react';
+import Banner from "../../container/banner/Banner";
+import ContactImg from "../../images/contact/ct.jpeg";
 
 export default class Contact extends Component {
     render() {
         return(
             <div>
-                <h1>Contact Page</h1>
+                <Banner 
+                    bannerImg={ContactImg}
+                    header = "Contact us"
+                />
             </div>
         );
     }
