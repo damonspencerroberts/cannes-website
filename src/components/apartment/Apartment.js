@@ -17,6 +17,8 @@ export default class Apartment extends Component {
             <HrTag />
             <Gallery 
                 homeJson = {Images}
+                header
+                headerContent = "Apartment gallery"
             />
             <HrTag />
             </div>
