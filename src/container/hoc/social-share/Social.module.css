@@ -1,0 +1,30 @@
+.Each{
+    display: block;
+    position: fixed;
+    left: 1%;
+}
+
+.EachButton {
+    cursor: pointer;
+}
+  
+.EachButton:hover:not(:active) {
+    opacity: 0.75;
+}
+
+.Airbnb {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 133, 154);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.Airbnb:hover:not(:active) {
+    opacity: 0.75;
+}
+
+
+
