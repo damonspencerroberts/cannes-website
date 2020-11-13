@@ -22,9 +22,7 @@ export default class Home extends Component {
                 <HrTag />
                 <Paragraph 
                     header = {paragraphData.home.header}
-                    elementParagraph1 = {paragraphData.home.paragraph1}
-                    elementParagraph2 = {paragraphData.home.paragraph2}
-                    elementParagraph3 = {paragraphData.home.paragraph3}
+                    paragraphArray = {paragraphData.home.paragraph}
                     findLink
                 />
                 <HrTag />

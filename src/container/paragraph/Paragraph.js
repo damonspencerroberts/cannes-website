@@ -9,22 +9,43 @@ class Paragraph extends Component {
         return(
             <div className={classes.Paragraph}>
                 <h1>{this.props.header}</h1>
-                    <p>{this.props.elementParagraph1}</p>
-                    <p>{this.props.elementParagraph2}</p>
-                    <p>{this.props.elementParagraph3}</p>
-                    {this.props.p4 ? <p>{this.props.elementParagraph4}</p> : null }
-                    {this.props.p5 ? <p>{this.props.elementParagraph5}</p> : null }
-                    {this.props.p6 ? <p>{this.props.elementParagraph6}</p> : null }
+                    {this.props.paragraphArray.map(e => {
+                        return <p key={e}>{e}</p>
+                    })}
                 <br />
                 {this.props.links ? <div className = {classes.LinksDiv}>
-                    <p>{this.props.linkPara}</p>
-                    <br />
                     <span>
-                        <a style = {{fontWeight: "bolder"}} href = {this.props.link1} target = "_blank" rel="noreferrer"><i className="fab fa-airbnb"></i> {this.props.link1Words}</a> | 
-                        <a style = {{fontWeight: "bolder"}} href = {this.props.link2} target = "_blank" rel="noreferrer"><i class="fas fa-globe-europe"></i> {this.props.link2Words}</a> | 
+                        <a style = {{fontWeight: "bolder"}} href = "https://www.airbnb.co.uk/rooms/18335152?preview_for_ml=true&source_impression_id=p3_1604864045_Y1CIl0v%2Feg1r%2Folm" target = "_blank" rel="noreferrer"><i className="fab fa-airbnb"></i> Book with Airbnb</a> | 
+                        <a style = {{fontWeight: "bolder"}} href = "https://www.domainedebeaucour.com" target = "_blank" rel="noreferrer"><i class="fas fa-globe-europe"></i> Explore France</a> | 
                         <a style = {{fontWeight: "bolder"}} href = "#form-of-contact"><i className="fas fa-envelope"></i> Find out more</a>
                     </span>
                 </div> : null }
+                {this.props.table ? 
+                    <div className = {classes.Table}>
+                        <p>Included in the apartment</p>
+                        <table>
+                            <tr>
+                                <td>Heating</td>
+                                <td>Air conditioning in main bedroom</td>
+                            </tr>
+                            <tr>
+                                <td>Fibre optic internet</td>
+                                <td>Flat screen tv with English channels</td>
+                            </tr>
+                            <tr>
+                                <td>Nespresso machine</td>
+                                <td>Dishwasher</td>
+                            </tr>
+                            <tr>
+                                <td>Washing Machine</td>
+                                <td>All linen including towels</td>
+                            </tr>
+                            <tr>
+                                <td>Fully equipped kitchen</td>
+                                <td>Balcony with sea views</td>
+                            </tr>
+                        </table>
+                    </div>: null}
                 {this.props.findLink ? 
                     <div className = {classes.LinksDiv}>
                         <span>
@@ -39,7 +60,20 @@ class Paragraph extends Component {
 
 export default Paragraph;
 
+
+
 /*<i className="fab fa-airbnb"></i>
 <i className="fas fa-envelope"></i> 
 <i className="far fa-copyright"></i>
 */
+
+/**
+ * Props:
+ * header
+ * paragraphArray
+ * links (contact)
+ * linkPara (contact)
+ * link1 (contact)
+ * link2 (contact)
+ * findLink
+ */

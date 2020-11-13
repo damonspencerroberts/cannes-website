@@ -18,13 +18,8 @@ export default class Contact extends Component {
                 />
                 <HrTag />
                 <Paragraph 
-                    elementParagraph = {ParagraphData.contact.paragraph}
-                    linkPara = {ParagraphData.contact.linkParagraph}
-                    link1 = {ParagraphData.contact.link1}
-                    link2 = {ParagraphData.contact.link2}
-                    link1Words = {ParagraphData.contact.p1}
-                    link2Words = {ParagraphData.contact.p2}
-                    chunk = {15}
+                    header = {ParagraphData.contact.header}
+                    paragraphArray = {ParagraphData.contact.paragraph}
                     links
                 />
                 <HrTag />

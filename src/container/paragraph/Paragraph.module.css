@@ -13,8 +13,8 @@
 
 .Paragraph p {
     font-size: 1.35rem;
-    padding: 5px;
-    line-height: 60px;
+    padding: 30px 200px;
+    line-height: 50px;
 }
 
 .LinksDiv {
@@ -30,4 +30,13 @@
   
 .LinksDiv a:hover {
     opacity: 0.75;
+}
+
+.Table table{
+    margin: 0 auto 100px auto;
+}
+
+.Table td {
+    padding: 10px 30px;
+    font-size: 1.1rem;
 }
