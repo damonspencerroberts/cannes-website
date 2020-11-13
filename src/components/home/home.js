@@ -21,8 +21,8 @@ export default class Home extends Component {
                 />
                 <HrTag />
                 <Paragraph 
-                    elementParagraph = {paragraphData.home.paragraph}
-                    chunk = {14}
+                    header = {paragraphData.home.header}
+                    paragraphArray = {paragraphData.home.paragraph}
                     findLink
                 />
                 <HrTag />
