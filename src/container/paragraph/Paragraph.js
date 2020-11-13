@@ -24,26 +24,28 @@ class Paragraph extends Component {
                     <div className = {classes.Table}>
                         <p>Included in the apartment</p>
                         <table>
-                            <tr>
-                                <td>Heating</td>
-                                <td>Air conditioning in main bedroom</td>
-                            </tr>
-                            <tr>
-                                <td>Fibre optic internet</td>
-                                <td>Flat screen tv with English channels</td>
-                            </tr>
-                            <tr>
-                                <td>Nespresso machine</td>
-                                <td>Dishwasher</td>
-                            </tr>
-                            <tr>
-                                <td>Washing Machine</td>
-                                <td>All linen including towels</td>
-                            </tr>
-                            <tr>
-                                <td>Fully equipped kitchen</td>
-                                <td>Balcony with sea views</td>
-                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>Heating</td>
+                                    <td>Air conditioning in main bedroom</td>
+                                </tr>
+                                <tr>
+                                    <td>Fibre optic internet</td>
+                                    <td>Flat screen tv with English channels</td>
+                                </tr>
+                                <tr>
+                                    <td>Nespresso machine</td>
+                                    <td>Dishwasher</td>
+                                </tr>
+                                <tr>
+                                    <td>Washing Machine</td>
+                                    <td>All linen including towels</td>
+                                </tr>
+                                <tr>
+                                    <td>Fully equipped kitchen</td>
+                                    <td>Balcony with sea views</td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>: null}
                 {this.props.findLink ? 
