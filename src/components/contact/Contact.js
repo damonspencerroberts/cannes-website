@@ -5,7 +5,6 @@ import HrTag from "../../container/hr-tag/Hr-tag";
 import Paragraph from "../../container/paragraph/Paragraph";
 import ParagraphData from '../paragraph-data/Paragraph-json';
 import ContactForm from "../../container/contact-form/Contact-form";
-import Map from "../../container/google-map/Google-maps";
 
 
 export default class Contact extends Component {
@@ -23,8 +22,6 @@ export default class Contact extends Component {
                     paragraphArray = {ParagraphData.contact.paragraph}
                     links
                 />
-                <HrTag />
-                <Map />
                 <HrTag />
                 <ContactForm />
                 <HrTag />
