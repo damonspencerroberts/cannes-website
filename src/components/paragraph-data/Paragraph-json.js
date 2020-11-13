@@ -1,6 +1,10 @@
 const ParagraphData = {
     home: {
-        paragraph: "Welcome to our beautiful apartment located in Cannes on the Cote d’Azur. We are situated only a few minutes from some of the nicest beaches in Cannes and around a 15 minute walk to the Palais des Festival. We are the ideal location for either a fabulous Summer vacation or as the perfect base for you to attend one of the numerous Congresses held every year. So step inside and look around our beautiful apartment."
+        header: "Welcome!",
+        paragraph1: "Welcome to our beautiful apartment located in Cannes on the Cote d’Azur. We are situated only a few minutes from some of the nicest beaches in Cannes and around a 15 minute walk to the Palais des Festival.",
+        paragraph2: "We are the ideal location for either a fabulous Summer vacation or as the perfect base for you to attend one of the numerous Congresses held every year.",
+        paragraph3: "So step inside and look around our beautiful apartment."
+
     },
     contact: {
         paragraph: "The apartment can be rented on a weekly basis (7 night minimum) in the Summer months. During any Festival booking, there is a three night minimum stay. Please use the contact form to enquire regarding pricing or alternatively, you can book via our Airbnb site. Some people like to explore different regions of France. We have another property in the Dordogne in the South West of France. If you book both properties, we do offer special discounts. Please do not hesitate to contact us for more details.",

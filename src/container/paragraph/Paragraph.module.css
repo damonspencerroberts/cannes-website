@@ -4,9 +4,17 @@
     color: rgb(5, 24, 56);
 }
 
+.Paragraph h1 {
+    font-size: 2.6rem;
+    font-style: bold;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
 .Paragraph p {
     font-size: 1.35rem;
     padding: 5px;
+    line-height: 60px;
 }
 
 .LinksDiv {

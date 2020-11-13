@@ -5,25 +5,16 @@ import classes from './Paragraph.module.css';
 class Paragraph extends Component {
     
     render() {
-        const para = this.props.elementParagraph;
-
-        const paraArr = para.split(' '); //props.here...
-        const splitArr = [];
-        let i, temp, chunk = this.props.chunk; 
-        for (i = 0; i < paraArr.length; i+=chunk) {
-            temp = paraArr.slice(i, i+chunk);
-            splitArr.push(temp);
-        }
-
-        const newSplit = splitArr.map(e => {
-            return e.join(' ');
-        });
 
         return(
             <div className={classes.Paragraph}>
-                {newSplit.map(e => {
-                    return <p key={e}>{e}</p>
-                })}
+                <h1>{this.props.header}</h1>
+                    <p>{this.props.elementParagraph1}</p>
+                    <p>{this.props.elementParagraph2}</p>
+                    <p>{this.props.elementParagraph3}</p>
+                    {this.props.p4 ? <p>{this.props.elementParagraph4}</p> : null }
+                    {this.props.p5 ? <p>{this.props.elementParagraph5}</p> : null }
+                    {this.props.p6 ? <p>{this.props.elementParagraph6}</p> : null }
                 <br />
                 {this.props.links ? <div className = {classes.LinksDiv}>
                     <p>{this.props.linkPara}</p>
