@@ -24,7 +24,8 @@
 }
 
 .LargeImage {
-    width: 90%;
+    max-width: 90%;
+    max-height: 90%;
     margin: 0 auto;
 }
 

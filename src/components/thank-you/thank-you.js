@@ -17,7 +17,7 @@ const ThankYou = (props) => {
             <Banner 
                 bannerImg={Image}
                 header = "Thank You"
-                opener = "Thank you for submitting your information. We will be sure to get back to you as soon as possible, and hope you will considering booking us for your stay in Cannes."
+                opener = "Thank you for submitting your information. We will be sure to get back to you as soon as possible, and hope you will consider booking us for your stay in Cannes."
                 highlightColor="rgba(90, 90, 90, 0.507)"
             />
             <Button 
