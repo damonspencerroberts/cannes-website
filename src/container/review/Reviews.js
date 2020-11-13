@@ -51,6 +51,7 @@ class Reviews extends Component{
                     <ReviewModal rightClick = {() => this.handleRightClick(this.state.currentQuote)} leftClick = {() => this.handleLeftClick(this.state.currentQuote)}>
                         <p className = {classes.Quote}>"{renderQuote.quote}"</p>
                         <p className = {classes.Quote}>{renderQuote.person}</p>
+                        <p className = {classes.Quote}>{renderQuote.key + 1}/{this.props.reviewArray.length}</p> 
                     </ReviewModal>
             </div>
         );
