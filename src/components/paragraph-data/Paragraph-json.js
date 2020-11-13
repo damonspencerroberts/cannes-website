@@ -26,6 +26,14 @@ const ParagraphData = {
             "The living room has a flat screen tv, comfortable couch and footstool. We have very fast fibre optic broadband internet and a desk in the bedroom if you need to work.",
             "A balcony is accessed from both the living room and main bedroom. A perfect place to sit and enjoy the sea views and spectacular sunsets whilst enjoying a local bottle of rose."
         ]   
+    },
+    beach: {
+        header: "Beach information",
+        paragraph: [
+            "Our apartment is located 4 minutes from the Plage du Midi beaches. All year round you will find people playing volleyball or just relaxing on the white sand beaches. There is a beautiful pedestrian promenade where you can walk into the centre of Cannes in one direction and to Cannes La Bocca in the other. This is popular with joggers and walkers alike.",
+            "There are many beach club restaurants all along the Plages du Midi. This is where you can enjoy lunch or dinner “toes in the sand” or rent a sunbed for the day.",
+            "At the top of our street, there is a huge exercise park for joggers and fitness enthusiasts - you have fantastic views of all of Cannes whilst exercising."
+        ]
     }
 }
 
