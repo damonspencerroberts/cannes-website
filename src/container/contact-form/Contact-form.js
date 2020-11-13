@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import classes from './Contact-form.module.css';
 import Button from '../button/Button';
 import Input from './form-type/Form-type';
+import {withRouter} from "react-router-dom";
+
 
 class ContactForm extends Component {
     constructor() {
@@ -68,6 +70,8 @@ class ContactForm extends Component {
         - Name: ${this.state.contactForm.name.value}
         - Message: ${this.state.contactForm.comment.value}
         `);
+
+        this.props.history.push("/thankyou");
     }
 
     render() {
@@ -79,6 +83,7 @@ class ContactForm extends Component {
             });
         }
         console.log(contactFormElements);
+        console.log(this.props);
         return(
             <div>
                 <div className = {classes.Form} id = "form-of-contact">
@@ -106,4 +111,4 @@ class ContactForm extends Component {
     }
 }
 
-export default ContactForm;
+export default withRouter(ContactForm);

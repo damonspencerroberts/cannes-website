@@ -1,4 +1,4 @@
-import a1 from "../../images/folder/ca/a1.jpeg";
+import a1 from "../../images/folder/ca/a1.jpg";
 import a2 from "../../images/folder/ca/a2.jpg";
 import a3 from "../../images/folder/ca/a3.jpg";
 import a4 from "../../images/folder/ca/a4.jpg";
@@ -6,6 +6,8 @@ import a5 from "../../images/folder/ca/a5.jpg";
 import a6 from "../../images/folder/ca/a6.jpeg";
 import a7 from "../../images/folder/ca/a7.jpeg";
 import a8 from "../../images/folder/ca/a8.jpeg";
+import a9 from "../../images/folder/ca/a9.jpg";
+import a10 from "../../images/folder/ca/a10.jpeg";
 
 const CannesGallery = [
     {
@@ -32,7 +34,16 @@ const CannesGallery = [
     },{
         key: 7,
         source: a8
+    },
+    {
+        key: 8,
+        source: a9
+    },
+    {
+        key: 9,
+        source: a10
     }
+
 ];
 
 export default CannesGallery;

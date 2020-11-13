@@ -34,6 +34,16 @@ const ParagraphData = {
             "There are many beach club restaurants all along the Plages du Midi. This is where you can enjoy lunch or dinner “toes in the sand” or rent a sunbed for the day.",
             "At the top of our street, there is a huge exercise park for joggers and fitness enthusiasts - you have fantastic views of all of Cannes whilst exercising."
         ]
+    },
+    cannes: {
+        header: "More about Cannes",
+        paragraph: [
+            "Cannes is famous the world over for its annual Cannes film festival. It is the place where the rich and famous come to see and be seen during this annual celebration of the silver screen. There are many other festivals that take place during the year also.",
+            "From the apartment you could also walk into the famous Rue d’Antibes for some designer label shopping, walk along the famous Croisette and have your photograph taken on the red carpet steps of the Palais des Festivals.",
+            "We are also located a short walk from Le Suquet, the old town of Cannes, with its spectacular views, steep winding streets and charming restaurants.",
+            "Cannes is also fabulous for winter breaks. The days are sunny and the skies are blue most of the time. There is also a great Christmas market held every year.",
+            "There are two ports where many beautiful yachts are moored. From the old port you can take a short boat ride to the Ile St Marguerite and Ile St Honorat. Both have fantastic restaurants and are well worth a visit to walk around, have a swim or simply relax on the beach."
+        ]
     }
 }
 

@@ -12,27 +12,27 @@ export default class Apartment extends Component {
     render() {
         return(
             <div>
-            <Banner 
-                bannerImg={BannerImg}
-                header = "Palais Bellevue"
-                highlightColor="rgba(90, 90, 90, 0.507)"
-            />
-            <HrTag />
-            <Paragraph 
-                header={ParagraphData.apartment.header}
-                paragraphArray={ParagraphData.apartment.paragraph}
-                table
-                findLink
-            />
-            <HrTag />
-            <Gallery 
-                homeJson = {Images}
-                header
-                headerContent = "Apartment gallery"
-            />
-            <HrTag />
-            <ContactForm />
-            <HrTag />
+                <Banner 
+                    bannerImg={BannerImg}
+                    header = "Palais Bellevue"
+                    highlightColor="rgba(90, 90, 90, 0.507)"
+                />
+                <HrTag />
+                <Paragraph 
+                    header={ParagraphData.apartment.header}
+                    paragraphArray={ParagraphData.apartment.paragraph}
+                    table
+                    findLink
+                />
+                <HrTag />
+                <Gallery 
+                    homeJson = {Images}
+                    header
+                    headerContent = "Apartment gallery"
+                />
+                <HrTag />
+                <ContactForm />
+                <HrTag />
             </div>
         );
     }

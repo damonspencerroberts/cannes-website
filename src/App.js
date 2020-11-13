@@ -9,6 +9,7 @@ import Cannes from './components/cannes/Cannes';
 import Beach from './components/beach/Beach';
 import Contact from './components/contact/Contact';
 import Social from './container/hoc/social-share/Social';
+import Thanks from './components/thank-you/thank-you';
 
 
 
@@ -17,13 +18,14 @@ const App = () => {
     <div>
       <Logo />
       <Navbar/>
-        <Switch>
-                <Route path = "/contact" component = {Contact} />
-                <Route path = "/beach" component = {Beach} />
-                <Route path = "/cannes" component = {Cannes} />
-          <Route path = "/apartment" component = {Apt} />
-          <Route path = "/" component = {Home} exact />
-        </Switch>
+          <Switch>
+            <Route path = "/thankyou" component = {Thanks} />
+            <Route path = "/contact" component = {Contact} />
+            <Route path = "/beach" component = {Beach} />
+            <Route path = "/cannes" component = {Cannes} />
+            <Route path = "/apartment" component = {Apt} />
+            <Route path = "/" component = {Home} exact />
+          </Switch>
         <Social />
       <Footer/>
     </div>

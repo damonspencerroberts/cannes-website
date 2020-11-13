@@ -15,7 +15,7 @@ const footer = () => {
         </div>
         
         <div className = {classes.Links}>
-            <a href="https://www.domainedebeaucour.com" target ="_blank" rel="noreferrer"><i class="fas fa-globe-europe"></i> Explore France</a>
+            <a href="https://www.domainedebeaucour.com" target ="_blank" rel="noreferrer"><i className="fas fa-globe-europe"></i> Explore France</a>
         </div>
         
         <div className = {classes.Copyright}>
