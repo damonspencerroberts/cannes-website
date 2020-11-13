@@ -7,6 +7,8 @@ import paragraphData from '../paragraph-data/Paragraph-json';
 import Gallery from '../../container/gallery/Gallery';
 import Images from "../images-gallery/Home-gallery-json";
 import homeBannerImg from "../../images/cannes-front.jpeg";
+import Reviews from "../../container/review/Reviews";
+import ReviewData from "../reviews-json/reviews-json";
 
 export default class Home extends Component {
     render() {
@@ -24,6 +26,10 @@ export default class Home extends Component {
                     header = {paragraphData.home.header}
                     paragraphArray = {paragraphData.home.paragraph}
                     findLink
+                />
+                <HrTag />
+                <Reviews 
+                    reviewArray = {ReviewData}
                 />
                 <HrTag />
                 <Gallery 

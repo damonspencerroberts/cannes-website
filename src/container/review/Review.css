@@ -1,0 +1,16 @@
+.leftArrow {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+.rightArrow {
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+
+.leftArrow:hover, .rightArrow:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
