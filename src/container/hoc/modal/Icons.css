@@ -1,4 +1,4 @@
-.right, .left {
+.right {
     color: rgb(5, 24, 56);
 }
 
@@ -6,3 +6,16 @@
     opacity: 0.75;
     cursor: pointer;
 }
+@media (max-width: 499px) {
+
+    .right:hover {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {}
+
+
+
+
+ 

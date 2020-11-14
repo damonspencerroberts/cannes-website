@@ -37,3 +37,51 @@
 .Header h1 {
     font-size: 2.6rem;
 }
+
+
+@media (max-width: 499px) {
+    .Gallery {
+        height: 400px;
+    }
+    
+    .Links {
+        height: 20vh;
+    }
+
+    .Images:hover {
+        opacity: 1;
+    }
+    
+    .Header {
+        margin-bottom: 30px;
+    }
+    
+    .Header h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .Gallery {
+        height: 525px;
+    }
+    
+    .Links {
+        height: 25vh;
+    }
+    .LargeImage {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    .Images:hover {
+        opacity: 1;
+    }
+    
+    .Header {
+        margin-bottom: 40px;
+    }
+    
+    .Header h1 {
+        font-size: 1.6rem;
+    }
+}
