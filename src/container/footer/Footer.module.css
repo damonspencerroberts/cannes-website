@@ -26,3 +26,9 @@
     font-size: 0.7rem;
     font-style: lighter;
 }
+
+/**
+ * @media (max-width: 499px) {}
+ * @media (min-width: 500px) and (max-width: 799px) {}
+
+ */

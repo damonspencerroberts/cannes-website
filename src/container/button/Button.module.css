@@ -26,6 +26,24 @@
 .Button button:focus {
     outline: none;
 }
-
+@media (max-width: 499px) {
+    .Button {
+        text-align: center;
+        margin: 15px auto;
+    }
+    
+    .Button button{
+        height: 30px;
+        width: 180px;
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {}
 /*opacity: 0.75;
     cursor: pointer;*/
+
+    /**
+ * 
+
+ */
