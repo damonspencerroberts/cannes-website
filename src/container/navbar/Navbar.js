@@ -16,11 +16,11 @@ class Navbar extends Component {
     render() {
         return (
             <div className= {classes.Navbar}> 
-                <NavLink className={classes.NavItem} to="/" exact>Home</NavLink>
-                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("apartment")} >Apartment</NavLink> 
-                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("cannes")}>Cannes</NavLink>
-                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("beach")}>Beach</NavLink>
-                <NavLink className={classes.NavItem} to={"/" + _.lowerCase("contact")}>Contact</NavLink>
+                <NavLink navclicked = {this.props.navClicked} className={classes.NavItem} to="/" exact>Home</NavLink>
+                <NavLink navclicked = {this.props.navClicked} className={classes.NavItem} to={"/" + _.lowerCase("apartment")} >Apartment</NavLink> 
+                <NavLink navclicked = {this.props.navClicked} className={classes.NavItem} to={"/" + _.lowerCase("cannes")}>Cannes</NavLink>
+                <NavLink navclicked = {this.props.navClicked} className={classes.NavItem} to={"/" + _.lowerCase("beach")}>Beach</NavLink>
+                <NavLink navclicked = {this.props.navClicked} className={classes.NavItem} to={"/" + _.lowerCase("contact")}>Contact</NavLink>
             </div>
         );
     }

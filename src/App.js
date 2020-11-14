@@ -38,7 +38,11 @@ class App extends Component {
             <div>
             <Logo />
                 {smallWindow ? <Burger clicked = {this.handleSide} /> : null}
-                {smallWindow ? <SideBar showSide = {this.state.showSidebar} clicked = {this.handleSide} /> : <Navbar />}
+                {smallWindow ? <SideBar 
+                                showSide = {this.state.showSidebar} 
+                                clicked = {this.handleSide} 
+                                navclicked = {this.handleSide}
+                                /> : <Navbar />}
                 <Switch>
                     <Route path = "/thankyou" component = {Thanks} />
                     <Route path = "/contact" component = {Contact} />

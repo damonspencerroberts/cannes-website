@@ -23,7 +23,7 @@ class SideBar extends Component {
                     <div className = {classes.Logo}>
                         <Logo />
                     </div>
-                    <nav>
+                    <nav onClick = {this.props.navclicked} >
                         <NavItems />
                     </nav>
                 </div>
