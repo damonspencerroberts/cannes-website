@@ -26,7 +26,35 @@
     font-size: 0.7rem;
     font-style: lighter;
 }
-
+@media (max-width: 499px) {
+    .Footer {
+        padding: 0 5px 5px 5px;
+    }
+      
+    .Links {
+        margin: 25px;
+    }
+      
+    .Links a {
+        padding: 10px;
+        display: block;
+        font-size: 0.9rem;
+    }
+      
+    .Links a:hover {
+        opacity: 1;
+    }
+    
+    .Copyright {
+        margin-top: 40px;
+    }
+    
+    .Copyright p {
+        font-size: 0.5rem;
+        font-style: lighter;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {}
 /**
  * @media (max-width: 499px) {}
  * @media (min-width: 500px) and (max-width: 799px) {}
