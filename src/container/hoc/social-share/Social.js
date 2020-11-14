@@ -16,38 +16,38 @@ const Social = () => {
 
     return(
         <div>
-            <div className={classes.Each} style={{top: "40%"}}>
+            <div className={`${classes.Each} ${classes.Facebook}`}>
                 <FacebookShareButton
                 url={shareUrl}
                 quote={title}
                 className={classes.EachButton}
                 >
-                <FacebookIcon size={40} borderRadius={3}/>
+                <FacebookIcon size={32} borderRadius={3}/>
                 </FacebookShareButton>
             </div>
 
-            <div className={classes.Each} style={{top: "45%"}}>
+            <div className={`${classes.Each} ${classes.Twitter}`}>
                 <TwitterShareButton
                     url={shareUrl}
                     title={title}
                     className={classes.EachButton}
                 >
-                    <TwitterIcon size={40} borderRadius={3}/>
+                    <TwitterIcon size={32} borderRadius={3}/>
                 </TwitterShareButton>
             </div>
 
-            <div className={classes.Each} style={{top: "50%"}}>
+            <div className={`${classes.Each} ${classes.Whatsapp}`}>
                 <WhatsappShareButton
                     url={shareUrl}
                     title={title}
                     separator=":: "
                     className={classes.EachButton}
                 >
-                    <WhatsappIcon size={40} borderRadius={3}/>
+                    <WhatsappIcon size={32} borderRadius={3}/>
                 </WhatsappShareButton>
             </div>
 
-            <div className={`${classes.Each} ${classes.Airbnb}`}  style={{top: "55%"}}>
+            <div className={`${classes.Each} ${classes.Airbnb}`}>
                 <a 
                     href="https://www.airbnb.co.uk/rooms/18335152?preview_for_ml=true&source_impression_id=p3_1604864045_Y1CIl0v%2Feg1r%2Folm"
                     target="_blank" 

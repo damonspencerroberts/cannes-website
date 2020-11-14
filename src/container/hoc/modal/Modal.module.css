@@ -17,16 +17,24 @@
 }
 
 
+
 @media (max-width: 499px) {
     .Modal {
         padding: 5px;
-        width: 325px;
+        width: 90%;
         height: 50vh;
         border: 1px solid #ccc;
-        left: 4%;
-        top: 16%;
+        top: 20%;
+        left: 5%;
     }
 }
 @media (min-width: 500px) and (max-width: 799px) {
-
+    .Modal {
+        padding: 5px;
+        width: 90%;
+        height: 50vh;
+        border: 1px solid #ccc;
+        top: 20%;
+        left: 5%;
+    }
 }

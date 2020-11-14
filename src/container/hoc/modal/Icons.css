@@ -1,5 +1,6 @@
 .right {
-    color: rgb(5, 24, 56);
+    color: rgba(5, 24, 56, 0.438);
+    margin: 50px;
 }
 
 .right:hover {
@@ -7,7 +8,9 @@
     cursor: pointer;
 }
 @media (max-width: 499px) {
-
+    .right {
+        margin: 0;
+    }
     .right:hover {
         opacity: 1;
     }

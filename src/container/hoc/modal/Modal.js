@@ -11,9 +11,14 @@ export default class Modal extends Component {
             <Fragment>
                 <Background clicked = {this.props.clicked} />
                 <div className = {classes.Modal}>
-                    <i className="fas fa-arrow-alt-circle-left fa-2x right" onClick = {this.props.leftClick}></i>
-                        {this.props.children}
-                    <i className="fas fa-arrow-alt-circle-right fa-2x right" onClick = {this.props.rightClick}></i>
+                    
+                    {this.props.children} 
+                    
+                                           
+                    <div>
+                        <i className="fas fa-arrow-alt-circle-left fa-2x right" onClick = {this.props.leftClick}></i>
+                        <i className="fas fa-arrow-alt-circle-right fa-2x right" onClick = {this.props.rightClick}></i>
+                    </div>
                 </div>
             </Fragment>
         );
