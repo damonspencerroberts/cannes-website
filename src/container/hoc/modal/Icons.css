@@ -1,8 +1,24 @@
-.right, .left {
-    color: rgb(5, 24, 56);
+.right {
+    color: rgba(5, 24, 56, 0.438);
+    margin: 50px;
 }
 
 .right:hover {
     opacity: 0.75;
     cursor: pointer;
 }
+@media (max-width: 499px) {
+    .right {
+        margin: 0;
+    }
+    .right:hover {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {}
+
+
+
+
+ 

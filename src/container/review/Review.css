@@ -14,3 +14,10 @@
     cursor: pointer;
 }
 
+@media (max-width: 499px) {
+   .leftArrow:hover, .rightArrow:hover {
+        opacity: 1;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {}
+

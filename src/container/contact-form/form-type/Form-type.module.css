@@ -45,3 +45,35 @@
 .Fi2 textarea::placeholder {
     font-style: lighter;
 }
+
+
+@media (max-width: 499px) {
+    .Fi1 {
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .Fi1 input {
+        height: 10px;
+        width: 150px;
+        font-size: 0.9rem;
+        padding: 6px;
+    }
+    
+    .Fi2 {
+        margin: 6px;
+    }
+    
+    .Fi2 textarea {
+        height: 80px;
+        width: 180px;
+        padding: 6px;
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {}
+/**
+ * @media (max-width: 499px) {}
+ * @media (min-width: 500px) and (max-width: 799px) {}
+
+ */

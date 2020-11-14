@@ -37,3 +37,20 @@
         border-bottom: none;
     }
 }
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .Navbar {
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .NavItem {
+        font-size: 23px;
+    }
+
+    .NavItem:hover {
+        opacity: 1;
+        border-bottom: none;
+    }
+}

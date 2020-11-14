@@ -30,3 +30,70 @@
     margin-bottom: 20px;
     padding: 20px 200px;
 }
+
+@media (min-width: 322px) and (max-width: 499px) {
+    .Banner {
+        width: 300px;
+        height: 40vh;
+        background-attachment: none;
+        background-position: top;
+        background-repeat: none;
+    }
+
+    .Banner h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .Banner p {
+        font-size: 15px;
+        opacity: 1;
+        margin-bottom: 10px;
+        padding: 10px 60px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .Banner {
+        width: 250px;
+        height: 40vh;
+        background-attachment: none;
+        background-position: top;
+        background-repeat: none;
+    }
+
+    .Banner h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .Banner p {
+        font-size: 15px;
+        opacity: 1;
+        margin-bottom: 10px;
+        padding: 10px 60px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .Banner {
+        width: 500px;
+        height: 50vh;
+        background-attachment: none;
+        background-position: top;
+        background-repeat: none;
+    }
+
+    .Banner h1 {
+        font-size: 55px;
+        letter-spacing: 3px;
+    }
+
+    .Banner p {
+        font-size: 25px;
+        opacity: 1;
+        margin-bottom: 10px;
+        padding: 15px 100px;
+    }
+}

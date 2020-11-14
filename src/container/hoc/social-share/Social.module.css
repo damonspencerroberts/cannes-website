@@ -1,7 +1,7 @@
 .Each{
     display: block;
     position: fixed;
-    left: 1%;
+    right: 1%;
 }
 
 .EachButton {
@@ -11,19 +11,48 @@
 .EachButton:hover:not(:active) {
     opacity: 0.75;
 }
+.Facebook {
+    top: 40%;
+}
+
+.Twitter {
+    top: 45%;
+}
+
+.Whatsapp {
+    top: 50%;
+}
 
 .Airbnb {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     text-align: center;
-    padding: 5px;
     background-color: rgb(255, 133, 154);
     cursor: pointer;
     border-radius: 3px;
+    top: 55%;
 }
 
 .Airbnb:hover:not(:active) {
     opacity: 0.75;
+}
+
+@media (max-width: 499px) {
+    .Facebook {
+        right: 0;
+    }
+    
+    .Twitter {
+        right: 0;
+    }
+    
+    .Whatsapp {
+        right: 0;
+    }
+
+    .Airbnb {
+        right: 0;
+    }
 }
 
 

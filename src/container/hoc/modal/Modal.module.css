@@ -15,3 +15,26 @@
     margin: 0 auto;
     overflow: auto;
 }
+
+
+
+@media (max-width: 499px) {
+    .Modal {
+        padding: 5px;
+        width: 90%;
+        height: 50vh;
+        border: 1px solid #ccc;
+        top: 20%;
+        left: 5%;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {
+    .Modal {
+        padding: 5px;
+        width: 90%;
+        height: 50vh;
+        border: 1px solid #ccc;
+        top: 20%;
+        left: 5%;
+    }
+}

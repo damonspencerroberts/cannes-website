@@ -40,3 +40,87 @@
     padding: 10px 30px;
     font-size: 1.1rem;
 }
+
+@media (max-width: 499px) {
+    .Paragraph {
+        padding: 20px;
+    }
+    
+    .Paragraph h1 {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        margin: 2.5px;
+    }
+    
+    .Paragraph p {
+        font-size: 0.7rem;
+        padding: 10px 30px;
+        line-height: 20px;
+    }
+    
+    .LinksDiv {
+        margin: 15px;
+    }
+      
+    .LinksDiv a {
+        padding: 10px;
+        font-size: 0.7rem;
+        display: block;
+    }
+      
+    .LinksDiv a:hover {
+        opacity: 1;
+    }
+    
+    .Table table{
+        margin: 0 auto 40px auto;
+    }
+    
+    .Table td {
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .Paragraph {
+        padding: 40px;
+        color: rgb(5, 24, 56);
+    }
+    
+    .Paragraph h1 {
+        font-size: 1.6rem;
+        font-style: bold;
+        letter-spacing: 1.6px;
+        margin: 4px;
+    }
+    
+    .Paragraph p {
+        font-size: 1rem;
+        padding: 20px 80px;
+        line-height: 35px;
+    }
+    
+    .LinksDiv {
+        margin: 20px;
+    }
+      
+    .LinksDiv a {
+        padding: 15px;
+        font-size: 1rem;
+        display: block;
+    }
+      
+    .LinksDiv a:hover {
+        opacity: 1;
+    }
+    
+    .Table table{
+        margin: 0 auto 50px auto;
+    }
+    
+    .Table td {
+        padding: 8px 24px;
+        font-size: 1rem;
+    }
+}

@@ -6,6 +6,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     color: rgb(5, 24, 56);
+    text-align: center;
 }
 
 .Title {
@@ -20,5 +21,41 @@
     font-style: 100;
     letter-spacing: 1.5px;
     margin: 10px;
+}
+
+@media (max-width: 499px) {
+    .Form {
+        padding: 10px;
+    }
+    
+    .Title {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        margin: 3px;
+    }
+    
+    .Addy {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        margin: 6px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .Form {
+        padding: 15px;
+    }
+    
+    .Title {
+        font-size: 1.6rem;
+        letter-spacing: 1.3px;
+        margin: 5px;
+    }
+    
+    .Addy {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
 }
 
