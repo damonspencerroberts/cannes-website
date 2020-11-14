@@ -10,14 +10,19 @@ import Beach from './components/beach/Beach';
 import Contact from './components/contact/Contact';
 import Social from './container/hoc/social-share/Social';
 import Thanks from './components/thank-you/thank-you';
+import SideBar from './container/navbar/nav-sidebar/Nav-sidebar';
 
 
 
 const App = () => {
+
+  const smallWindow = window.innerWidth < 500;
+
+
   return (
     <div>
       <Logo />
-      <Navbar/>
+          <Navbar />
           <Switch>
             <Route path = "/thankyou" component = {Thanks} />
             <Route path = "/contact" component = {Contact} />
