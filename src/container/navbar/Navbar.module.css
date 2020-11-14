@@ -24,7 +24,7 @@
 
     .Navbar {
         flex-direction: column;
-        width: 250px;
+        width: 200px;
         margin: 0 auto;
     }
 
@@ -38,7 +38,7 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 799px) {
+@media (min-width: 500px) and (max-width: 1020px) {
     .Navbar {
         flex-direction: column;
         width: 500px;

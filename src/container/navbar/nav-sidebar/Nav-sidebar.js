@@ -7,31 +7,18 @@ import NavItems from "../Navbar";
 
 
 class SideBar extends Component {
-    constructor() {
-        super()
-
-        this.state = {
-            showSide: false
-        }
-
-        this.handleShowSide = this.handleShowSide.bind(this);
-    }
-
-    handleShowSide() {
-        this.setState({showSide: !this.state.showSide})
-    }
-
+    
     render () {
         let AttClasses = [classes.SideDrawer, classes.Close];
 
 
-        if (this.state.showSide) {
+        if (this.props.showSide) {
             AttClasses = [classes.SideDrawer, classes.Open]
         }
 
         return(
             <Fragment>
-                <Backdrop clicked = {this.handleShowSide}/>
+                <Backdrop clicked = {this.props.clicked} show = {this.props.showSide}/>
                 <div className = {AttClasses.join(' ')}>
                     <div className = {classes.Logo}>
                         <Logo />

@@ -9,7 +9,7 @@ export default class Modal extends Component {
     render() {
         return(
             <Fragment>
-                <Background clicked = {this.props.clicked} />
+                <Background clicked = {this.props.clicked} show/>
                 <div className = {classes.Modal}>
                     
                     {this.props.children} 
