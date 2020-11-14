@@ -3,6 +3,7 @@ import classes from './Contact-form.module.css';
 import Button from '../button/Button';
 import Input from './form-type/Form-type';
 import {withRouter} from "react-router-dom";
+import emailjs from "emailjs-com";
 
 
 class ContactForm extends Component {
@@ -62,14 +63,26 @@ class ContactForm extends Component {
 
     }
 
-    handleFormSubmit() {
-        //have to handle email send here.
+    handleFormSubmit(e) {
+
+        e.preventDefault();
+
+        const serviceId = process.env.REACT_APP_SERVICE_ID;
+        const templateId = process.env.REACT_APP_TEMPLATE_ID;
+        const userId = process.env.REACT_APP_USER_ID;
         
-        alert(`Thank you for your request. You details are: 
-        - Email: ${this.state.contactForm.email.value}
-        - Name: ${this.state.contactForm.name.value}
-        - Message: ${this.state.contactForm.comment.value}
-        `);
+        const adding = {
+            from_message: this.state.contactForm.comment.value,
+            from_name: this.state.contactForm.name.value,
+            from_email: this.state.contactForm.email.value
+        }
+
+        emailjs.send(serviceId, templateId, adding, userId)
+            .then((result) => {
+                console.log(result.text + " successful email sent!");
+            }, (error) => {
+                console.log(error.text);
+            });
 
         this.props.history.push("/thankyou");
     }

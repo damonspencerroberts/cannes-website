@@ -33,7 +33,6 @@ class App extends Component {
     }
     render() {
         const smallWindow = window.innerWidth < 500;
-
         return(
             <div>
             <Logo />
