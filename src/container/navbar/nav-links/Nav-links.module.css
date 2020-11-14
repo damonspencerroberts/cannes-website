@@ -13,7 +13,7 @@
 
 @media (max-width: 799px) {
     .Active {
-        border: solid 3px rgb(5, 24, 56) !important;
+        border: solid 1px rgb(5, 24, 56) !important;
         font-weight: bolder;
     }
 }
