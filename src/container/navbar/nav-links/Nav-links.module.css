@@ -3,3 +3,10 @@
     font-weight: bold;
     opacity: 1 !important;
 }
+
+@media (max-width: 499px) {
+    .Active {
+        border: solid 1px rgb(5, 24, 56) !important;
+        font-weight: bolder;
+    }
+}
