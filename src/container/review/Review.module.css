@@ -23,3 +23,55 @@
     margin-bottom: 60px;
     font-size: 2.6rem;
 }
+
+
+@media (max-width: 499px) {
+    .Review {
+        padding: 10px;
+    }
+    
+    .Each {
+        background-color: rgb(255, 232, 200);;
+        border: 1px solid rgb(5,24,56);
+        color: rgb(5,24,56);
+        border-radius: 3px;
+        margin: 0;
+        position: relative;
+    }
+    
+    .Quote {
+        font-size: 0.7rem;
+        line-height: 20px;
+        padding: 10px 45px;
+    }
+    
+    .Review h1 {
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px) {
+    .Review {
+        padding: 20px;
+    }
+    
+    .Each {
+        background-color: rgb(255, 232, 200);;
+        border: 1px solid rgb(5,24,56);
+        color: rgb(5,24,56);
+        border-radius: 3px;
+        margin: 0 30px;
+    }
+    
+    .Quote {
+        font-size: 1.4rem;
+        line-height: 30px;
+        padding: 10px 50px;
+    }
+    
+    .Review h1 {
+        margin-bottom: 45px;
+        font-size: 1.6rem;
+    }
+}
+
