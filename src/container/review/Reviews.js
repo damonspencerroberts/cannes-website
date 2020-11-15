@@ -37,7 +37,6 @@ class Reviews extends Component{
     }
 
     render() {
-
         const renderQuote = this.props.reviewArray.find(e => {
             return e.key === this.state.currentQuote;
         });
@@ -47,7 +46,7 @@ class Reviews extends Component{
 
         return(
             <div className = {classes.Review}>
-                <h1>What people have said</h1>
+                <h1>Reviews</h1>
                     <ReviewModal rightClick = {() => this.handleRightClick(this.state.currentQuote)} leftClick = {() => this.handleLeftClick(this.state.currentQuote)}>
                         <p className = {classes.Quote}>"{renderQuote.quote}"</p>
                         <p className = {classes.Quote}>{renderQuote.person}</p>

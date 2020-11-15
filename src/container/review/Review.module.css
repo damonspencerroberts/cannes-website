@@ -4,10 +4,8 @@
 }
 
 .Each {
-    background-color: rgb(255, 232, 200);;
     border: 1px solid rgb(5,24,56);
     color: rgb(5,24,56);
-    border-radius: 3px;
     margin: 0 100px;
     position: relative;
 }
@@ -16,12 +14,13 @@
     font-size: 1.4rem;
     line-height: 50px;
     padding: 10px 150px;
-    font-weight: bolder;
+    font-weight: 300;
 }
 
 .Review h1 {
     margin-bottom: 60px;
     font-size: 2.6rem;
+    font-weight: 700;
 }
 
 
@@ -31,23 +30,18 @@
     }
     
     .Each {
-        background-color: rgb(255, 232, 200);;
-        border: 1px solid rgb(5,24,56);
-        color: rgb(5,24,56);
-        border-radius: 3px;
         margin: 0;
-        position: relative;
     }
     
     .Quote {
-        font-size: 0.7rem;
+        font-size: 1rem;
         line-height: 20px;
-        padding: 10px 45px;
+        padding: 10px 30px;
     }
     
     .Review h1 {
         margin-bottom: 30px;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 @media (min-width: 500px) and (max-width: 799px) {
@@ -56,15 +50,11 @@
     }
     
     .Each {
-        background-color: rgb(255, 232, 200);;
-        border: 1px solid rgb(5,24,56);
-        color: rgb(5,24,56);
-        border-radius: 3px;
-        margin: 0 30px;
+        margin: 0 50px;
     }
     
     .Quote {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 30px;
         padding: 10px 50px;
     }

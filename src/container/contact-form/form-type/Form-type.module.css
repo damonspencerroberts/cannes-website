@@ -10,7 +10,6 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
     padding: 10px;
-    border-radius: 3px;
 }
 
 .Fi1 input::placeholder {
@@ -38,7 +37,6 @@
     font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
     resize: none;
-    border-radius: 3px;
     border: 0.3px solid rgb(5, 24, 56);
 }
 
@@ -50,14 +48,14 @@
 @media (max-width: 499px) {
     .Fi1 {
         display: block;
-        margin: 10px auto;
+        margin: 25px auto;
     }
     
     .Fi1 input {
-        height: 10px;
-        width: 150px;
-        font-size: 0.9rem;
-        padding: 6px;
+        height: 20px;
+        width: 260px;
+        font-size: 1.1rem;
+        padding: 8px;
     }
     
     .Fi2 {
@@ -65,10 +63,10 @@
     }
     
     .Fi2 textarea {
-        height: 80px;
-        width: 180px;
-        padding: 6px;
-        font-size: 0.9rem;
+        height: 100px;
+        width: 260px;
+        padding: 8px;
+        font-size: 1.1rem;
     }
 }
 @media (min-width: 500px) and (max-width: 799px) {}

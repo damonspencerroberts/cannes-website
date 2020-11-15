@@ -11,14 +11,14 @@
 
 .Title {
     font-size: 2.6rem;
-    font-style: bold;
+    font-style: 700;
     letter-spacing: 2px;
     margin: 5px;
 }
 
 .Addy {
     font-size: 1.1rem;
-    font-style: 100;
+    font-weight: lighter;
     letter-spacing: 1.5px;
     margin: 10px;
 }
@@ -29,13 +29,13 @@
     }
     
     .Title {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
         letter-spacing: 1px;
         margin: 3px;
     }
     
     .Addy {
-        font-size: 0.7rem;
+        font-size: 1.1rem;
         letter-spacing: 1px;
         margin: 6px;
     }
@@ -47,13 +47,13 @@
     }
     
     .Title {
-        font-size: 1.6rem;
+        font-size: 45px;
         letter-spacing: 1.3px;
         margin: 5px;
     }
     
     .Addy {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         letter-spacing: 1px;
         margin: 10px;
     }
