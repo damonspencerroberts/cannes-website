@@ -1,13 +1,13 @@
-import a1 from "../../images/folder/bc/a1.jpeg";
-import a2 from "../../images/folder/bc/a2.jpeg";
+import a1 from "../../images/folder/bc/a1.jpg";
+import a2 from "../../images/folder/bc/a2.jpg";
 import a3 from "../../images/folder/bc/a3.jpg";
-import a4 from "../../images/folder/bc/a4.jpeg";
-import a5 from "../../images/folder/bc/a5.jpeg";
+import a4 from "../../images/folder/bc/a4.jpg";
+import a5 from "../../images/folder/bc/a5.jpg";
 import a6 from "../../images/folder/bc/a6.jpg";
-import a7 from "../../images/folder/bc/a7.jpeg";
+import a7 from "../../images/folder/bc/a7.jpg";
 import a8 from "../../images/folder/bc/a8.jpg";
-import a9 from "../../images/folder/bc/a9.jpeg";
-import a10 from "../../images/folder/bc/a10.jpeg";
+import a9 from "../../images/folder/bc/a9.jpg";
+import a10 from "../../images/folder/bc/a10.jpg";
 
 const BeachGallery = [
     {
