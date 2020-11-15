@@ -14,6 +14,16 @@ const Social = () => {
     const shareUrl = 'https://palaisbellevue.com';
     const title = 'Palais Bellevue, Cannes Luxury Rental';
 
+    const smallWindow = window.innerWidth < 500;
+
+    let sizeSocial = 32;
+    let sizeAirbnb = ["fab", "fa-airbnb", "fa-2x"]
+    if (!smallWindow) {
+        sizeSocial = 50;
+        sizeAirbnb.splice(-1, 1);
+        sizeAirbnb.push("fa-3x");
+    }
+
     return(
         <div>
             <div className={`${classes.Each} ${classes.Facebook}`}>
@@ -22,7 +32,7 @@ const Social = () => {
                 quote={title}
                 className={classes.EachButton}
                 >
-                <FacebookIcon size={32} borderRadius={3}/>
+                <FacebookIcon size={sizeSocial} borderRadius={3}/>
                 </FacebookShareButton>
             </div>
 
@@ -32,7 +42,7 @@ const Social = () => {
                     title={title}
                     className={classes.EachButton}
                 >
-                    <TwitterIcon size={32} borderRadius={3}/>
+                    <TwitterIcon size={sizeSocial} borderRadius={3}/>
                 </TwitterShareButton>
             </div>
 
@@ -43,7 +53,7 @@ const Social = () => {
                     separator=":: "
                     className={classes.EachButton}
                 >
-                    <WhatsappIcon size={32} borderRadius={3}/>
+                    <WhatsappIcon size={sizeSocial} borderRadius={3}/>
                 </WhatsappShareButton>
             </div>
 
@@ -54,7 +64,7 @@ const Social = () => {
                     rel="noreferrer"
                     className={classes.AirbnbLink}   
                 >
-                    <i className="fab fa-airbnb fa-2x"></i>
+                    <i className={sizeAirbnb.join(" ")}></i>
                 </a>
             </div>
         </div>

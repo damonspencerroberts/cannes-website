@@ -12,24 +12,24 @@
     opacity: 0.75;
 }
 .Facebook {
-    top: 40%;
+    top: 32%;
 }
 
 .Twitter {
-    top: 45%;
+    top: 40%;
 }
 
 .Whatsapp {
-    top: 50%;
+    top: 48%;
 }
 
 .Airbnb {
-    width: 32px;
-    height: 32px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     background-color: rgb(255, 133, 154);
     cursor: pointer;
-    top: 55%;
+    top: 56%;
 }
 
 .Airbnb:hover:not(:active) {
@@ -38,19 +38,21 @@
 
 @media (max-width: 499px) {
     .Facebook {
-        right: 0;
+        right: 1px;
     }
     
     .Twitter {
-        right: 0;
+        right: 1px;
     }
     
     .Whatsapp {
-        right: 0;
+        right: 1px;
     }
 
     .Airbnb {
-        right: 0;
+        right: 1px;
+        width: 32px;
+        height: 32px;
     }
 }
 

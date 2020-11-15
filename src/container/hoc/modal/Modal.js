@@ -7,6 +7,16 @@ import "./Icons.css";
 export default class Modal extends Component {
 
     render() {
+        const smallWindow = window.innerWidth < 500;
+
+        let right = ["fas", "fa-arrow-alt-circle-right", "right"];
+        let left = ["fas", "fa-arrow-alt-circle-left", "right"]
+        if (!smallWindow) {
+            right.push("fa-2x");
+            left.push("fa-2x");
+
+        }
+
         return(
             <Fragment>
                 <Background clicked = {this.props.clicked} show/>
@@ -15,9 +25,9 @@ export default class Modal extends Component {
                     {this.props.children} 
                     
                                            
-                    <div>
-                        <i className="fas fa-arrow-alt-circle-left fa-2x right" onClick = {this.props.leftClick}></i>
-                        <i className="fas fa-arrow-alt-circle-right fa-2x right" onClick = {this.props.rightClick}></i>
+                    <div className = "IconsDiv">
+                        <i className={left.join(" ")} onClick = {this.props.leftClick}></i>
+                        <i className={right.join(" ")} onClick = {this.props.rightClick}></i>
                     </div>
                 </div>
             </Fragment>
