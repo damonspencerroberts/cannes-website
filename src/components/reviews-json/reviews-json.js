@@ -22,7 +22,7 @@ const reviews = [
     {
         key: 4,
         quote: "This apartment is well located  with a beautiful sea view, it’s just a few minutes stroll to the beach, where you can find a wide choice of restaurants. A short walk to the high street so perfect for a retail therapy too! Would definitely recommend for those in need of a relaxing break.",
-        person: "Theresa from the UK"
+        person: "Teresa from the UK"
     },
     {
         key: 5,

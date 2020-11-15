@@ -8,6 +8,7 @@ import a7 from "../../images/folder/ca/a7.jpg";
 import a8 from "../../images/folder/ca/a8.jpg";
 import a9 from "../../images/folder/ca/a9.jpg";
 import a10 from "../../images/folder/ca/a10.jpg";
+import a11 from "../../images/folder/ca/a11.jpg";
 
 const CannesGallery = [
     {
@@ -42,6 +43,10 @@ const CannesGallery = [
     {
         key: 9,
         source: a10
+    },
+    {
+        key: 10,
+        source: a11
     }
 
 ];

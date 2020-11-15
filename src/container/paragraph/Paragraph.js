@@ -16,7 +16,7 @@ class Paragraph extends Component {
                 {this.props.links ? <div className = {classes.LinksDiv}>
                     <span>
                         <a style = {{fontWeight: "bolder"}} href = "https://www.airbnb.co.uk/rooms/18335152?preview_for_ml=true&source_impression_id=p3_1604864045_Y1CIl0v%2Feg1r%2Folm" target = "_blank" rel="noreferrer"><i className="fab fa-airbnb"></i> Book with Airbnb</a>
-                        <a style = {{fontWeight: "bolder"}} href = "https://www.domainedebeaucour.com" target = "_blank" rel="noreferrer"><i className="fas fa-globe-europe"></i> Explore France</a>
+                        <a style = {{fontWeight: "bolder"}} href = "https://www.domainedebeaucour.com" target = "_blank" rel="noreferrer"><i className="fas fa-globe-europe"></i> Dordogne property</a>
                         <a style = {{fontWeight: "bolder"}} href = "#form-of-contact"><i className="fas fa-envelope"></i> Find out more</a>
                     </span>
                 </div> : null }

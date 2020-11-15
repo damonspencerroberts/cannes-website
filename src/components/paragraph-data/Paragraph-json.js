@@ -24,7 +24,7 @@ const ParagraphData = {
             "Our apartment is located on the 1st floor. It can be reached either by a marble staircase or via an elevator. We totally renovated the apartment in 2017, knocking down some interior walls to allow more light and better flow. At the same time, we were very careful to keep all of the original features - the marble fireplaces and beautiful period radiators and daddo rails.",
             "The apartment has two bedrooms with king sized beds that can both be split into singles. We can sleep up to 4 people comfortably. We have a fully stocked kitchen with dishwasher, induction hob, full size oven, fridge, washing machine and Nespresso coffee maker. The marble bathroom has a rainforest shower as well as a hand held shower and marble vanity.",
             "The living room has a flat screen tv, comfortable couch and footstool. We have very fast fibre optic broadband internet and a desk in the bedroom if you need to work.",
-            "A balcony is accessed from both the living room and main bedroom. A perfect place to sit and enjoy the sea views and spectacular sunsets whilst enjoying a local bottle of rose."
+            "A balcony is accessed from both the living room and main bedroom. A perfect place to sit and enjoy the sea views and spectacular sunsets whilst enjoying a local bottle of rosé."
         ]   
     },
     beach: {
@@ -39,7 +39,7 @@ const ParagraphData = {
         header: "More about Cannes",
         paragraph: [
             "Cannes is famous the world over for its annual Cannes film festival. It is the place where the rich and famous come to see and be seen during this annual celebration of the silver screen. There are many other festivals that take place during the year also.",
-            "From the apartment you could also walk into the famous Rue d’Antibes for some designer label shopping, walk along the famous Croisette and have your photograph taken on the red carpet steps of the Palais des Festivals.",
+            "From the apartment you can also walk into the famous Rue d’Antibes for some designer label shopping, walk along the famous Croisette and have your photograph taken on the red carpet steps of the Palais des Festivals.",
             "We are also located a short walk from Le Suquet, the old town of Cannes, with its spectacular views, steep winding streets and charming restaurants.",
             "Cannes is also fabulous for winter breaks. The days are sunny and the skies are blue most of the time. There is also a great Christmas market held every year.",
             "There are two ports where many beautiful yachts are moored. From the old port you can take a short boat ride to the Ile St Marguerite and Ile St Honorat. Both have fantastic restaurants and are well worth a visit to walk around, have a swim or simply relax on the beach."

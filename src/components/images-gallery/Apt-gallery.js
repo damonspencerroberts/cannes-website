@@ -15,6 +15,8 @@ import a14 from "../../images/folder/apt/a14.jpg";
 import a15 from "../../images/folder/apt/a15.jpg";
 import a16 from "../../images/folder/apt/a16.jpg";
 import a17 from "../../images/folder/apt/a17.jpg";
+import a18 from "../../images/folder/apt/a18.jpg";
+
 
 const AptGallery = [
     {
@@ -68,6 +70,9 @@ const AptGallery = [
     },{
         key: 16,
         source: a17
+    },{
+        key: 17,
+        source: a18
     }
 ];
 
