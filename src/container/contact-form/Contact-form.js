@@ -4,6 +4,7 @@ import Button from '../button/Button';
 import Input from './form-type/Form-type';
 import {withRouter} from "react-router-dom";
 import emailjs from "emailjs-com";
+import Spinner from "../spinner/spinner";
 
 
 class ContactForm extends Component {
@@ -37,7 +38,8 @@ class ContactForm extends Component {
                     },
                     value: ''
                 }
-            }
+            },
+            spinner: false
         }
 
         this.handleContactForm = this.handleContactForm.bind(this);
@@ -59,8 +61,6 @@ class ContactForm extends Component {
 
         this.setState({contactForm: newForm});
 
-        console.log(newForm);
-
     }
 
     handleFormSubmit(e) {
@@ -77,14 +77,17 @@ class ContactForm extends Component {
             from_email: this.state.contactForm.email.value
         }
 
+        this.setState({spinner: true});
+
         emailjs.send(serviceId, templateId, adding, userId)
             .then((result) => {
+                this.setState({spinner: false});
                 console.log(result.text + " successful email sent!");
+                this.props.history.push("/thankyou");
             }, (error) => {
-                console.log(error.text);
+                this.setState({spinner: false});
+                alert(error.text);
             });
-
-        this.props.history.push("/thankyou");
     }
 
     render() {
@@ -95,15 +98,14 @@ class ContactForm extends Component {
                 config: this.state.contactForm[e]
             });
         }
-        console.log(contactFormElements);
-        console.log(this.props);
+
         return(
             <div>
                 <div className = {classes.Form} id = "form-of-contact">
                     <h3 className ={classes.Title}>Contact us here</h3>
                     <p className = {classes.Addy}>11 Avenue Jean de Noailles, Cannes 06400, France</p>
                 
-                    <form id = "contact-form" onSubmit = {this.handleFormSubmit} >
+                    {this.state.spinner ? <Spinner /> : <form id = "contact-form" onSubmit = {this.handleFormSubmit} >
                         {contactFormElements.map(e => {
                             return (
                                 <Input 
@@ -116,7 +118,7 @@ class ContactForm extends Component {
                             );
                         })}
                         <Button btnType = "submit" buttonContent = "Submit" />
-                    </form>
+                    </form>}
                 </div>
                 
             </div>

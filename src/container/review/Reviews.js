@@ -41,8 +41,6 @@ class Reviews extends Component{
             return e.key === this.state.currentQuote;
         });
 
-        console.log(renderQuote);
-
 
         return(
             <div className = {classes.Review}>
