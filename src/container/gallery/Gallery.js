@@ -20,7 +20,6 @@ export default class Gallery extends Component {
     }
 
     handleLargeImage(identifier) {
-        console.log(identifier);
         const foundPic = this.props.homeJson.find(e => {
             return e.key === identifier;
         });
@@ -36,7 +35,6 @@ export default class Gallery extends Component {
 
     handleRightClick(identifier) {
         let pic = identifier += 1;
-        console.log(pic);
         if (pic >= 0 && pic <= this.props.homeJson.length - 1) {
             this.handleLargeImage(pic);
         } else {
@@ -47,7 +45,6 @@ export default class Gallery extends Component {
 
     handleLeftClick(identifier) {
         let pic = identifier -= 1;
-        console.log(pic);
         if (pic >= 0 && pic <= this.props.homeJson.length - 1) {
             this.handleLargeImage(pic);
         } else {
