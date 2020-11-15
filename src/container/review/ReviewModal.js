@@ -6,8 +6,8 @@ const ReviewModal = (props) => {
 
     const smallScreen = window.innerWidth < 500;
     let right, left;
-    right = ["leftArrow", "far", "fa-arrow-alt-circle-left"];
-    left = ["rightArrow", "far", "fa-arrow-alt-circle-right"];
+    right = ["rightArrow", "far", "fa-arrow-alt-circle-right"];
+    left = ["leftArrow", "far", "fa-arrow-alt-circle-left"];
 
     if (!smallScreen) {
         right.push("fa-2x");
