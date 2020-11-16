@@ -1,7 +1,6 @@
 .Active {
-    border-bottom: solid 8px rgb(133, 133, 133) !important;
-    font-weight: bold;
-    opacity: 1 !important;
+    border-bottom: solid 10px rgb(5, 24, 56) !important;
+    font-weight: bolder;
 }
 
 @media (max-width: 499px) {
