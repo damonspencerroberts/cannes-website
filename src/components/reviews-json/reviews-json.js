@@ -11,7 +11,7 @@ const reviews = [
     },
     {
         key: 2,
-        quote: "Beautiful building and apartment with a wonderful view in a quiet neighborhood near the beach. The host and manger are very service minded.",
+        quote: "Beautiful building and apartment with a wonderful view in a quiet neighborhood near the beach. The host and manager are very service minded.",
         person: "Jonas from Sweden"
     },
     {
