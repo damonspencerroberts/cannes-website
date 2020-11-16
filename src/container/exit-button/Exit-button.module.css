@@ -22,8 +22,8 @@
 
 @media (max-width: 499px) {
     .Exit {
-        padding: 7px 12px;
-        font-size: 16px;
+        padding: 5px 10px;
+        font-size: 12px;
     }
     
     .Exit:hover {
