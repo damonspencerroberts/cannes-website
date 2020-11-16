@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Banner from "../../container/banner/Banner";
-import ContactImg from "../../images/contact/ct.jpg";
+import ContactImg from "../../images/banner/b5.jpg";
 import HrTag from "../../container/hr-tag/Hr-tag";
 import Paragraph from "../../container/paragraph/Paragraph";
 import ParagraphData from '../paragraph-data/Paragraph-json';

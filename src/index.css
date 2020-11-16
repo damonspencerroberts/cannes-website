@@ -9,8 +9,14 @@ html {
   scroll-behavior: smooth; 
 }
 
+h1 {
+  font-family: 'Charm', cursive;
+  font-weight: 700 !important;
+}
+
+
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Petit Formal Script', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Oxygen', sans-serif;
 color: rgb(5, 24, 56);
 */

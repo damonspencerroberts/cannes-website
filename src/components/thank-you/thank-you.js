@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from "../../container/banner/Banner";
 import HrTag from "../../container/hr-tag/Hr-tag";
-import Image from "../../images/thx.jpg";
+import Image from "../../images/banner/b6.jpg";
 import {withRouter} from "react-router-dom";
 import Button from "../../container/button/Button";
 
