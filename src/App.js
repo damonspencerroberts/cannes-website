@@ -12,6 +12,7 @@ import Social from './container/hoc/social-share/Social';
 import Thanks from './components/thank-you/thank-you';
 import SideBar from './container/navbar/nav-sidebar/Nav-sidebar';
 import Burger from "./container/burger-menu/Burger-menu";
+import { loadReCaptcha } from 'react-recaptcha-google'
 
 
 class App extends Component {
@@ -28,9 +29,14 @@ class App extends Component {
 
     }
 
+    componentDidMount() {
+        loadReCaptcha();
+    }
+
     handleSide() {
         this.setState({showSidebar: !this.state.showSidebar})
     }
+    
     render() {
         const smallWindow = window.innerWidth < 500;
         return(
