@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Banner from "../../container/banner/Banner";
-import BannerImg from "../../images/folder/apt/a7.jpg";
+import BannerImg from "../../images/banner/b2.jpg";
 import HrTag from "../../container/hr-tag/Hr-tag";
 import Gallery from "../../container/gallery/Gallery";
 import Images from "../images-gallery/Apt-gallery";

@@ -64,6 +64,7 @@ export default class Gallery extends Component {
                 {pic ? 
                     <Modal 
                         clicked = {this.handleBackgroundPic}
+                        exitClicked = {this.handleBackgroundPic}
                         rightClick = {() => this.handleRightClick(this.state.individualKey)}
                         leftClick = {() => this.handleLeftClick(this.state.individualKey)}
                     >

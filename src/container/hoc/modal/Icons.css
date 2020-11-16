@@ -1,12 +1,12 @@
 .IconsDiv {
     position: absolute;
-    bottom: 10px;
-    left: 42%;
+    bottom: 0;
+    left: 38%;
 }
 
 .right {
     color: rgba(5, 24, 56, 0.438);
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .right:hover {

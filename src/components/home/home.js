@@ -6,7 +6,7 @@ import Paragraph from '../../container/paragraph/Paragraph';
 import paragraphData from '../paragraph-data/Paragraph-json';
 import Gallery from '../../container/gallery/Gallery';
 import Images from "../images-gallery/Home-gallery-json";
-import homeBannerImg from "../../images/cannes-front.jpg";
+import homeBannerImg from "../../images/banner/b1.jpg";
 import Reviews from "../../container/review/Reviews";
 import ReviewData from "../reviews-json/reviews-json";
 

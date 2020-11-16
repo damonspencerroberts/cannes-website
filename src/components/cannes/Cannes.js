@@ -6,13 +6,14 @@ import Paragraph from "../../container/paragraph/Paragraph";
 import ParagraphData from "../paragraph-data/Paragraph-json";
 import ContactForm from "../../container/contact-form/Contact-form";
 import Images from "../images-gallery/Cannes-gallery";
+import BannerImg from "../../images/banner/b3.jpg";
 
 export default class Cannes extends Component {
     render() {
         return(
             <div>
                 <Banner 
-                    bannerImg={Images[0].source}
+                    bannerImg={BannerImg}
                     header = "Ville de Cannes"
                     highlightColor="rgba(90, 90, 90, 0.507)"
                 />

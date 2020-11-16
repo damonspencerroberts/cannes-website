@@ -102,7 +102,7 @@ class ContactForm extends Component {
         return(
             <div>
                 <div className = {classes.Form} id = "form-of-contact">
-                    <h3 className ={classes.Title}>Contact us here</h3>
+                    <h1 className ={classes.Title}>Contact us here</h1>
                     <p className = {classes.Addy}>11 Avenue Jean de Noailles, Cannes 06400, France</p>
                 
                     {this.state.spinner ? <Spinner /> : <form id = "contact-form" onSubmit = {this.handleFormSubmit} >
