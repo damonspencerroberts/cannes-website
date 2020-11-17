@@ -114,6 +114,7 @@ export default class LeaveReview extends Component {
         }
         
         console.log(reviewFormElements);
+        console.log(process.env.REACT_APP_SITE_KEY_RE);
         return(
             <div className = {classes.Rev}>
                 <ExitButton clicked = {this.props.exitClicked} />
@@ -137,7 +138,6 @@ export default class LeaveReview extends Component {
                             sitekey={process.env.REACT_APP_SITE_KEY_RE}
                             onChange={this.onChange}
                             theme="dark"
-                            tabindex={5}
                             size="compact"
                         />
                         <Button btnType = "submit" buttonContent = "Submit" />

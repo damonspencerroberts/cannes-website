@@ -127,7 +127,6 @@ class ContactForm extends Component {
                             sitekey={process.env.REACT_APP_SITE_KEY_CO}
                             onChange={this.onChange}
                             theme="dark"
-                            tabindex={5}
                             size="compact"
                         />
                         <Button btnType = "submit" buttonContent = "Submit" />
