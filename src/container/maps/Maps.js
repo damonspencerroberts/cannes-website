@@ -13,7 +13,6 @@ const center = {
 
 export default class Maps extends Component {
   render() {
-    console.log(process.env.REACT_APP_API_KEY_GOOGLE_MAPS);
     return (
       <LoadScript
         googleMapsApiKey={process.env.REACT_APP_API_KEY_GOOGLE_MAPS}
