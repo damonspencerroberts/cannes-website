@@ -28,12 +28,12 @@ export default class Home extends Component {
                     findLink
                 />
                 <HrTag />
-                <Reviews 
-                    reviewArray = {ReviewData}
-                />
-                <HrTag />
                 <Gallery 
                     homeJson = {Images}
+                />
+                <HrTag />
+                <Reviews 
+                    reviewArray = {ReviewData}
                 />
                 <HrTag />
                 <ContactForm />

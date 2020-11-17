@@ -10,13 +10,13 @@ export default class Modal extends Component {
     render() {
         const smallWindow = window.innerWidth < 500;
 
-        let right = ["fas", "fa-arrow-alt-circle-right", "right", "fa-2x"];
-        let left = ["fas", "fa-arrow-alt-circle-left", "right", "fa-2x"]
+        let right = ["fas", "fa-arrow-right", "right", "fa-3x"];
+        let left = ["fas", "fa-arrow-left", "left", "fa-3x"]
         if (!smallWindow) {
             right.splice(-1, 1);
             left.splice(-1, 1);
-            right.push("fa-3x");
-            left.push("fa-3x");
+            right.push("fa-5x");
+            left.push("fa-5x");
         }
 
         return(

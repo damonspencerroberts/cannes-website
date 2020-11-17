@@ -10,8 +10,8 @@ const ReviewModal = (props) => {
     left = ["leftArrow", "far", "fa-arrow-alt-circle-left"];
 
     if (!smallScreen) {
-        right.push("fa-2x");
-        left.push("fa-2x");
+        right.push("fa-3x");
+        left.push("fa-3x");
     }
 
     return(

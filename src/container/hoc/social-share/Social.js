@@ -25,8 +25,8 @@ const Social = () => {
     }
 
     return(
-        <div>
-            <div className={`${classes.Each} ${classes.Facebook}`}>
+        <div className={classes.Social}>
+            <div className={classes.Each}>
                 <FacebookShareButton
                 url={shareUrl}
                 quote={title}
@@ -36,7 +36,7 @@ const Social = () => {
                 </FacebookShareButton>
             </div>
 
-            <div className={`${classes.Each} ${classes.Twitter}`}>
+            <div className={classes.Each}>
                 <TwitterShareButton
                     url={shareUrl}
                     title={title}
@@ -46,7 +46,7 @@ const Social = () => {
                 </TwitterShareButton>
             </div>
 
-            <div className={`${classes.Each} ${classes.Whatsapp}`}>
+            <div className={classes.Each}>
                 <WhatsappShareButton
                     url={shareUrl}
                     title={title}
