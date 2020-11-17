@@ -113,8 +113,6 @@ export default class LeaveReview extends Component {
             });
         }
         
-        console.log(reviewFormElements);
-        console.log(process.env.REACT_APP_SITE_KEY_RE);
         return(
             <div className = {classes.Rev}>
                 <ExitButton clicked = {this.props.exitClicked} />
