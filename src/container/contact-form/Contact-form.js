@@ -5,6 +5,7 @@ import Input from './form-type/Form-type';
 import {withRouter} from "react-router-dom";
 import emailjs from "emailjs-com";
 import Spinner from "../spinner/spinner";
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 class ContactForm extends Component {
@@ -44,6 +45,11 @@ class ContactForm extends Component {
 
         this.handleContactForm = this.handleContactForm.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.onChange = this.onChange.bind(this);
+    }
+
+    onChange(value) {
+        console.log("Captcha value:", value);
     }
 
     handleContactForm(event, identifier) {
@@ -117,6 +123,13 @@ class ContactForm extends Component {
                                 />
                             );
                         })}
+                        <ReCAPTCHA
+                            sitekey={process.env.REACT_APP_SITE_KEY_CO}
+                            onChange={this.onChange}
+                            theme="dark"
+                            tabindex={5}
+                            size="compact"
+                        />
                         <Button btnType = "submit" buttonContent = "Submit" />
                     </form>}
                 </div>
