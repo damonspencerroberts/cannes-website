@@ -5,7 +5,6 @@ import Button from "../../button/Button";
 import emailjs from "emailjs-com";
 import Spinner from "../../spinner/spinner";
 import ExitButton from "../../exit-button/Exit-button";
-import ReCAPTCHA from "react-google-recaptcha";
 
 
 export default class LeaveReview extends Component {
@@ -47,11 +46,6 @@ export default class LeaveReview extends Component {
 
         this.handleReviewForm = this.handleReviewForm.bind(this);
         this.handleReviewSubmit = this.handleReviewSubmit.bind(this);
-        this.onChange = this.onChange.bind(this);
-    }
-
-    onChange(value) {
-        console.log("Captcha value:", value);
     }
 
     handleReviewForm(event, identifier) {
@@ -132,12 +126,6 @@ export default class LeaveReview extends Component {
                                 />
                             );
                         })}
-                        <ReCAPTCHA
-                            sitekey={process.env.REACT_APP_SITE_KEY_RE}
-                            onChange={this.onChange}
-                            theme="dark"
-                            size="compact"
-                        />
                         <Button btnType = "submit" buttonContent = "Submit" />
                     </form>}
                 </div>

@@ -123,12 +123,14 @@ class ContactForm extends Component {
                                 />
                             );
                         })}
-                        <ReCAPTCHA
-                            sitekey={process.env.REACT_APP_SITE_KEY_CO}
-                            onChange={this.onChange}
-                            theme="dark"
-                            size="compact"
-                        />
+                        <div style = {{margin: "0 auto"}}>
+                            <ReCAPTCHA
+                                sitekey={process.env.REACT_APP_SITE_KEY_CO}
+                                onChange={this.onChange}
+                                theme="dark"
+                                size="compact"
+                            />
+                        </div>
                         <Button btnType = "submit" buttonContent = "Submit" />
                     </form>}
                 </div>
