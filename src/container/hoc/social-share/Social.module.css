@@ -1,7 +1,11 @@
+.Social {
+    position: fixed;
+    top: 40%;
+    right: 1px;
+}
+
 .Each{
     display: block;
-    position: fixed;
-    right: 1%;
 }
 
 .EachButton {
@@ -11,17 +15,6 @@
 .EachButton:hover:not(:active) {
     opacity: 0.75;
 }
-.Facebook {
-    top: 32%;
-}
-
-.Twitter {
-    top: 40%;
-}
-
-.Whatsapp {
-    top: 48%;
-}
 
 .Airbnb {
     width: 50px;
@@ -29,7 +22,6 @@
     text-align: center;
     background-color: rgb(255, 133, 154);
     cursor: pointer;
-    top: 56%;
 }
 
 .Airbnb:hover:not(:active) {
@@ -37,22 +29,10 @@
 }
 
 @media (max-width: 499px) {
-    .Facebook {
-        right: 1px;
-    }
-    
-    .Twitter {
-        right: 1px;
-    }
-    
-    .Whatsapp {
-        right: 1px;
-    }
 
     .Airbnb {
-        right: 2px;
-        width: 32px;
         height: 32px;
+        width: 32px;
     }
 }
 

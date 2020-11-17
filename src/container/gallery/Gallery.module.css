@@ -24,8 +24,8 @@
 }
 
 .LargeImage {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 95%;
+    max-height: 95%;
     margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@
 
 .Header h1 {
     font-size: 2.6rem;
+    color: rgb(5, 24, 56);
 }
 
 

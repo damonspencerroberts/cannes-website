@@ -9,6 +9,7 @@ import Images from "../images-gallery/Home-gallery-json";
 import homeBannerImg from "../../images/banner/b1.jpg";
 import Reviews from "../../container/review/Reviews";
 import ReviewData from "../reviews-json/reviews-json";
+import Maps from "../../container/maps/Maps";
 
 export default class Home extends Component {
     render() {
@@ -28,13 +29,15 @@ export default class Home extends Component {
                     findLink
                 />
                 <HrTag />
+                <Gallery 
+                    homeJson = {Images}
+                />
+                <HrTag />
                 <Reviews 
                     reviewArray = {ReviewData}
                 />
                 <HrTag />
-                <Gallery 
-                    homeJson = {Images}
-                />
+                <Maps />
                 <HrTag />
                 <ContactForm />
                 <HrTag />
