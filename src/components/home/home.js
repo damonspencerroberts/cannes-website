@@ -9,6 +9,7 @@ import Images from "../images-gallery/Home-gallery-json";
 import homeBannerImg from "../../images/banner/b1.jpg";
 import Reviews from "../../container/review/Reviews";
 import ReviewData from "../reviews-json/reviews-json";
+import Maps from "../../container/maps/Maps";
 
 export default class Home extends Component {
     render() {
@@ -35,6 +36,8 @@ export default class Home extends Component {
                 <Reviews 
                     reviewArray = {ReviewData}
                 />
+                <HrTag />
+                <Maps />
                 <HrTag />
                 <ContactForm />
                 <HrTag />
