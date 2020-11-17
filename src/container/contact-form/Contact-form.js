@@ -123,6 +123,7 @@ class ContactForm extends Component {
                                 />
                             );
                         })}
+                        
                         <ReCAPTCHA
                             sitekey={process.env.REACT_APP_SITE_KEY_CO}
                             onChange={this.onChange}
