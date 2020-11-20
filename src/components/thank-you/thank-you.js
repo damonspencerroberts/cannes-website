@@ -4,6 +4,7 @@ import HrTag from "../../container/hr-tag/Hr-tag";
 import Image from "../../images/banner/b6.jpg";
 import {withRouter} from "react-router-dom";
 import Button from "../../container/button/Button";
+import { Helmet } from "react-helmet";
 
 
 const ThankYou = (props) => {
@@ -14,6 +15,10 @@ const ThankYou = (props) => {
     
     return(
         <div>
+            <Helmet>
+                <title>Thank you from us</title>
+                <meta name="robots" content="noindex, nofollow" />
+            </Helmet>
             <Banner 
                 bannerImg={Image}
                 header = "Thank You"
