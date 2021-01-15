@@ -1,5 +1,6 @@
-# cannes-website
-Website for Rental Apartment in Cannes
+# Cannes Website
+
+### Website for Rental Apartment in Cannes
 
 This is a website I created using React for a rental apartment in Cannes, France.
 
@@ -7,4 +8,10 @@ I created multiple resusable containers and used props to pass information betwe
 
 Some of the packages I used were react-router-dom, react-helmet, lodash, react-share, emailjs-com, prop-types, react-scripts and web-vitals.
 
+![Photo_1](./img/pic1.png)
 
+![Photo_2](./img/pic1.png)
+
+![Photo_3](./img/pic1.png)
+
+![Photo_4](./img/pic1.png)
